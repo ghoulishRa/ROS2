@@ -1,0 +1,2 @@
+Invoking command in '/home/israamaciaas/ros2_ws/build/signal_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/israamaciaas/ros2_ws/install/ros_move:/opt/ros/humble /usr/bin/cmake --build /home/israamaciaas/ros2_ws/build/signal_generator -- -j8 -l8
+Invoked command in '/home/israamaciaas/ros2_ws/build/signal_generator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/israamaciaas/ros2_ws/install/ros_move:/opt/ros/humble /usr/bin/cmake --build /home/israamaciaas/ros2_ws/build/signal_generator -- -j8 -l8

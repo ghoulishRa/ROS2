@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/home/israamaciaas/ros2_ws/build/signal_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/israamaciaas/ros2_ws/install/ros_move:/opt/ros/humble /usr/bin/cmake --build /home/israamaciaas/ros2_ws/build/signal_generator -- -j8 -l8
+[0.106s] [ 50%] [32mBuilding CXX object CMakeFiles/signal_generator.dir/src/signal_generator.cpp.o[0m
+[0.179s] [01m[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.179s]     6 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.179s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.180s] compilation terminated.
+[0.182s] gmake[2]: *** [CMakeFiles/signal_generator.dir/build.make:76: CMakeFiles/signal_generator.dir/src/signal_generator.cpp.o] Error 1
+[0.183s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/signal_generator.dir/all] Error 2
+[0.183s] gmake: *** [Makefile:146: all] Error 2
+[0.188s] Invoked command in '/home/israamaciaas/ros2_ws/build/signal_generator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/israamaciaas/ros2_ws/install/ros_move:/opt/ros/humble /usr/bin/cmake --build /home/israamaciaas/ros2_ws/build/signal_generator -- -j8 -l8

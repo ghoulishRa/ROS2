@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target signal_generator[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/signal_generator.dir/src/signal_generator.cpp.o[0m
+[01m[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:10:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K([m[K’ token
+   10 | using std_msgs::msg::String[01;31m[K([m[K);
+      |                            [01;31m[K^[m[K
+      |                            [32m[K;[m[K
+[01m[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:10:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+   10 | using std_msgs::msg::String([01;31m[K)[m[K;
+      |                             [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/signal_generator.dir/build.make:76: CMakeFiles/signal_generator.dir/src/signal_generator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/signal_generator.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

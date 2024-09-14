@@ -1,0 +1,23 @@
+[0.303s] Invoking command in '/home/israamaciaas/ros2_ws/build/signal_generator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/israamaciaas/ros2_ws/build/signal_generator -- -j8 -l8
+[0.370s] [35m[1mConsolidate compiler generated dependencies of target signal_generator[0m
+[0.403s] [100%] Built target signal_generator
+[0.418s] Invoked command in '/home/israamaciaas/ros2_ws/build/signal_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/israamaciaas/ros2_ws/build/signal_generator -- -j8 -l8
+[0.448s] Invoking command in '/home/israamaciaas/ros2_ws/build/signal_generator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/israamaciaas/ros2_ws/build/signal_generator
+[0.457s] -- Install configuration: "Release"
+[0.458s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/lib/signal_generator/signal_generator
+[0.459s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/ament_index/resource_index/package_run_dependencies/signal_generator
+[0.459s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/ament_index/resource_index/parent_prefix_path/signal_generator
+[0.460s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/environment/ament_prefix_path.sh
+[0.460s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/environment/ament_prefix_path.dsv
+[0.460s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/environment/path.sh
+[0.460s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/environment/path.dsv
+[0.461s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/local_setup.bash
+[0.461s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/local_setup.sh
+[0.461s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/local_setup.zsh
+[0.461s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/local_setup.dsv
+[0.461s] -- Installing: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.dsv
+[0.462s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/ament_index/resource_index/packages/signal_generator
+[0.462s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/cmake/signal_generatorConfig.cmake
+[0.462s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/cmake/signal_generatorConfig-version.cmake
+[0.462s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.xml
+[0.465s] Invoked command in '/home/israamaciaas/ros2_ws/build/signal_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/israamaciaas/ros2_ws/build/signal_generator

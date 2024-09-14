@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000345] (-) JobUnselected: {'identifier': 'ros_move'}
+[0.000399] (signal_generator) JobQueued: {'identifier': 'signal_generator', 'dependencies': OrderedDict()}
+[0.000432] (signal_generator) JobStarted: {'identifier': 'signal_generator'}
+[0.012675] (signal_generator) JobProgress: {'identifier': 'signal_generator', 'progress': 'cmake'}
+[0.013948] (signal_generator) JobProgress: {'identifier': 'signal_generator', 'progress': 'build'}
+[0.015219] (signal_generator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/israamaciaas/ros2_ws/build/signal_generator', '--', '-j8', '-l8'], 'cwd': '/home/israamaciaas/ros2_ws/build/signal_generator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'israamaciaas'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/israamaciaas'), ('OLDPWD', '/home/israamaciaas/ros2_ws/src/signal_generator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '3308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/israamaciaas/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'israamaciaas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'israamaciaas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/IsraUbuntu:@/tmp/.ICE-unix/1662,unix/IsraUbuntu:/tmp/.ICE-unix/1662'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9abe0109_e4df_4660_8079_fdb8d65f2917'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COEAS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/israamaciaas/ros2_ws/install/signal_generator:/home/israamaciaas/ros2_ws/install/ros_move:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/israamaciaas/ros2_ws/build/signal_generator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/israamaciaas/ros2_ws/install/signal_generator:/home/israamaciaas/ros2_ws/install/ros_move:/opt/ros/humble')]), 'shell': False}
+[0.098755] (-) TimerEvent: {}
+[0.105094] (signal_generator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/signal_generator.dir/src/signal_generator.cpp.o\x1b[0m\n'}
+[0.198936] (-) TimerEvent: {}
+[0.299494] (-) TimerEvent: {}
+[0.400055] (-) TimerEvent: {}
+[0.500644] (-) TimerEvent: {}
+[0.601229] (-) TimerEvent: {}
+[0.701813] (-) TimerEvent: {}
+[0.802403] (-) TimerEvent: {}
+[0.902982] (-) TimerEvent: {}
+[1.003573] (-) TimerEvent: {}
+[1.104196] (-) TimerEvent: {}
+[1.204859] (-) TimerEvent: {}
+[1.305422] (-) TimerEvent: {}
+[1.405993] (-) TimerEvent: {}
+[1.506594] (-) TimerEvent: {}
+[1.607200] (-) TimerEvent: {}
+[1.707779] (-) TimerEvent: {}
+[1.808406] (-) TimerEvent: {}
+[1.908939] (-) TimerEvent: {}
+[2.009403] (-) TimerEvent: {}
+[2.109857] (-) TimerEvent: {}
+[2.210410] (-) TimerEvent: {}
+[2.310881] (-) TimerEvent: {}
+[2.411354] (-) TimerEvent: {}
+[2.511821] (-) TimerEvent: {}
+[2.612314] (-) TimerEvent: {}
+[2.712781] (-) TimerEvent: {}
+[2.813240] (-) TimerEvent: {}
+[2.913707] (-) TimerEvent: {}
+[3.014178] (-) TimerEvent: {}
+[3.114649] (-) TimerEvent: {}
+[3.166278] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:12:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.166712] (signal_generator) StderrLine: {'line': b'   12 | class Minimal_Publisher : public \x1b[01;31m\x1b[Krclpp\x1b[m\x1b[K:: Node{\n'}
+[3.166869] (signal_generator) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.167009] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:12:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.167151] (signal_generator) StderrLine: {'line': b'   12 | class Minimal_Publisher : public rclpp:: \x1b[01;31m\x1b[KNode\x1b[m\x1b[K{\n'}
+[3.167287] (signal_generator) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.167421] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:13:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.167557] (signal_generator) StderrLine: {'line': b'   13 |   \x1b[01;31m\x1b[Kpublic\x1b[m\x1b[K:\n'}
+[3.167632] (signal_generator) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.167705] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:13:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.167784] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:12:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.167854] (signal_generator) StderrLine: {'line': b'   12 | class Minimal_Publisher : public rclpp:: Node\x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[3.167940] (signal_generator) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.168008] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:21:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.168088] (signal_generator) StderrLine: {'line': b'   21 |   \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[3.168155] (signal_generator) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.168503] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:31:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.168630] (signal_generator) StderrLine: {'line': b'   31 |     \x1b[01;31m\x1b[Krclpp\x1b[m\x1b[K::TimerBase::SharedPtr timer_;\n'}
+[3.168706] (signal_generator) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.169827] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:32:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.170133] (signal_generator) StderrLine: {'line': b'   32 |     \x1b[01;31m\x1b[Krclpp\x1b[m\x1b[K::Publisher<std_msgs::msg:String>::<SharedPtr publisher_;\n'}
+[3.170219] (signal_generator) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.170292] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:34:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.170364] (signal_generator) StderrLine: {'line': b'   34 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[3.170437] (signal_generator) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.170506] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.170577] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:37:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.170646] (signal_generator) StderrLine: {'line': b'   37 |   \x1b[01;31m\x1b[Krclpp\x1b[m\x1b[K::init(argc, argv);\n'}
+[3.170715] (signal_generator) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.170782] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:38:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.170850] (signal_generator) StderrLine: {'line': b'   38 |   \x1b[01;31m\x1b[Krclpp\x1b[m\x1b[K::spin(std:make_shared<Minimal_Publisher>());\n'}
+[3.170919] (signal_generator) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.170986] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:38:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfound \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 in nested-name-specifier, expected \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.171073] (signal_generator) StderrLine: {'line': b'   38 |   rclpp::spin(std\x1b[01;31m\x1b[K:\x1b[m\x1b[Kmake_shared<Minimal_Publisher>());\n'}
+[3.171142] (signal_generator) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.171209] (signal_generator) StderrLine: {'line': b'      |                  \x1b[32m\x1b[K::\x1b[m\x1b[K\n'}
+[3.172978] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:39:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.173279] (signal_generator) StderrLine: {'line': b'   39 |   \x1b[01;31m\x1b[Krclpp\x1b[m\x1b[K::shutdown();\n'}
+[3.173428] (signal_generator) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.214818] (-) TimerEvent: {}
+[3.315294] (-) TimerEvent: {}
+[3.415771] (-) TimerEvent: {}
+[3.516273] (-) TimerEvent: {}
+[3.552952] (signal_generator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:42\x1b[m\x1b[K,\n'}
+[3.553323] (signal_generator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[3.553474] (signal_generator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:2\x1b[m\x1b[K:\n'}
+[3.553615] (signal_generator) StderrLine: {'line': b'/usr/include/c++/11/ext/aligned_buffer.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct __gnu_cxx::__aligned_buffer<Minimal_Publisher>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.553789] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<Minimal_Publisher, std::allocator<Minimal_Publisher>, __gnu_cxx::_S_atomic>::_Impl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.553944] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<Minimal_Publisher, std::allocator<Minimal_Publisher>, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.554079] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = Minimal_Publisher; _Alloc = std::allocator<Minimal_Publisher>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.554200] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Minimal_Publisher>; _Args = {}; _Tp = Minimal_Publisher; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.554272] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<Minimal_Publisher>; _Args = {}; _Tp = Minimal_Publisher]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.554344] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = Minimal_Publisher; _Alloc = std::allocator<Minimal_Publisher>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.554413] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = Minimal_Publisher; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.554491] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:38:49:\x1b[m\x1b[K   required from here\n'}
+[3.554559] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KMinimal_Publisher\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.554627] (signal_generator) StderrLine: {'line': b'   91 |     : std::aligned_storage<\x1b[01;31m\x1b[Ksizeof(_Tp)\x1b[m\x1b[K, __alignof__(_Tp)>\n'}
+[3.554696] (signal_generator) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.554763] (signal_generator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[KMinimal_Publisher\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.616436] (-) TimerEvent: {}
+[3.705862] (signal_generator) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/signal_generator.dir/build.make:76: CMakeFiles/signal_generator.dir/src/signal_generator.cpp.o] Error 1\n'}
+[3.706227] (signal_generator) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/signal_generator.dir/all] Error 2\n'}
+[3.706612] (signal_generator) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.709963] (signal_generator) CommandEnded: {'returncode': 2}
+[3.716567] (-) TimerEvent: {}
+[3.771274] (signal_generator) JobEnded: {'identifier': 'signal_generator', 'rc': 2}
+[3.782370] (-) EventReactorShutdown: {}

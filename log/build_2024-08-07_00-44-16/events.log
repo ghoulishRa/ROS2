@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.001157] (-) JobUnselected: {'identifier': 'ros_move'}
+[0.001329] (signal_generator) JobQueued: {'identifier': 'signal_generator', 'dependencies': OrderedDict()}
+[0.001386] (signal_generator) JobStarted: {'identifier': 'signal_generator'}
+[0.014085] (signal_generator) JobProgress: {'identifier': 'signal_generator', 'progress': 'cmake'}
+[0.015293] (signal_generator) JobProgress: {'identifier': 'signal_generator', 'progress': 'build'}
+[0.016337] (signal_generator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/israamaciaas/ros2_ws/build/signal_generator', '--', '-j8', '-l8'], 'cwd': '/home/israamaciaas/ros2_ws/build/signal_generator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'israamaciaas'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/israamaciaas'), ('OLDPWD', '/home/israamaciaas/ros2_ws/src/signal_generator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '3308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/israamaciaas/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'israamaciaas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'israamaciaas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/IsraUbuntu:@/tmp/.ICE-unix/1662,unix/IsraUbuntu:/tmp/.ICE-unix/1662'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9abe0109_e4df_4660_8079_fdb8d65f2917'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COEAS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/israamaciaas/ros2_ws/install/signal_generator:/home/israamaciaas/ros2_ws/install/ros_move:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/israamaciaas/ros2_ws/build/signal_generator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/israamaciaas/ros2_ws/install/signal_generator:/home/israamaciaas/ros2_ws/install/ros_move:/opt/ros/humble')]), 'shell': False}
+[0.095891] (signal_generator) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target signal_generator\x1b[0m\n'}
+[0.099544] (-) TimerEvent: {}
+[0.127541] (signal_generator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/signal_generator.dir/src/signal_generator.cpp.o\x1b[0m\n'}
+[0.199743] (-) TimerEvent: {}
+[0.300427] (-) TimerEvent: {}
+[0.401148] (-) TimerEvent: {}
+[0.501718] (-) TimerEvent: {}
+[0.602571] (-) TimerEvent: {}
+[0.703342] (-) TimerEvent: {}
+[0.804002] (-) TimerEvent: {}
+[0.904745] (-) TimerEvent: {}
+[1.005301] (-) TimerEvent: {}
+[1.105788] (-) TimerEvent: {}
+[1.206353] (-) TimerEvent: {}
+[1.306930] (-) TimerEvent: {}
+[1.407551] (-) TimerEvent: {}
+[1.508116] (-) TimerEvent: {}
+[1.608728] (-) TimerEvent: {}
+[1.709305] (-) TimerEvent: {}
+[1.809873] (-) TimerEvent: {}
+[1.911055] (-) TimerEvent: {}
+[2.011635] (-) TimerEvent: {}
+[2.112350] (-) TimerEvent: {}
+[2.212826] (-) TimerEvent: {}
+[2.313283] (-) TimerEvent: {}
+[2.413752] (-) TimerEvent: {}
+[2.514226] (-) TimerEvent: {}
+[2.614696] (-) TimerEvent: {}
+[2.715172] (-) TimerEvent: {}
+[2.815626] (-) TimerEvent: {}
+[2.916144] (-) TimerEvent: {}
+[3.016599] (-) TimerEvent: {}
+[3.117036] (-) TimerEvent: {}
+[3.217504] (-) TimerEvent: {}
+[3.317971] (-) TimerEvent: {}
+[3.418430] (-) TimerEvent: {}
+[3.518890] (-) TimerEvent: {}
+[3.619362] (-) TimerEvent: {}
+[3.719838] (-) TimerEvent: {}
+[3.820308] (-) TimerEvent: {}
+[3.920775] (-) TimerEvent: {}
+[4.021230] (-) TimerEvent: {}
+[4.121687] (-) TimerEvent: {}
+[4.222151] (-) TimerEvent: {}
+[4.322614] (-) TimerEvent: {}
+[4.423072] (-) TimerEvent: {}
+[4.523562] (-) TimerEvent: {}
+[4.624099] (-) TimerEvent: {}
+[4.724571] (-) TimerEvent: {}
+[4.825024] (-) TimerEvent: {}
+[4.925473] (-) TimerEvent: {}
+[5.025911] (-) TimerEvent: {}
+[5.126366] (-) TimerEvent: {}
+[5.226841] (-) TimerEvent: {}
+[5.327339] (-) TimerEvent: {}
+[5.427789] (-) TimerEvent: {}
+[5.528256] (-) TimerEvent: {}
+[5.628724] (-) TimerEvent: {}
+[5.729172] (-) TimerEvent: {}
+[5.738834] (signal_generator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable signal_generator\x1b[0m\n'}
+[5.829336] (-) TimerEvent: {}
+[5.929832] (-) TimerEvent: {}
+[6.007761] (signal_generator) StdoutLine: {'line': b'[100%] Built target signal_generator\n'}
+[6.026213] (signal_generator) CommandEnded: {'returncode': 0}
+[6.029946] (-) TimerEvent: {}
+[6.072960] (signal_generator) JobProgress: {'identifier': 'signal_generator', 'progress': 'install'}
+[6.087995] (signal_generator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/israamaciaas/ros2_ws/build/signal_generator'], 'cwd': '/home/israamaciaas/ros2_ws/build/signal_generator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'israamaciaas'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/israamaciaas'), ('OLDPWD', '/home/israamaciaas/ros2_ws/src/signal_generator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '3308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/israamaciaas/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'israamaciaas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'israamaciaas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/IsraUbuntu:@/tmp/.ICE-unix/1662,unix/IsraUbuntu:/tmp/.ICE-unix/1662'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9abe0109_e4df_4660_8079_fdb8d65f2917'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.COEAS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/israamaciaas/ros2_ws/install/signal_generator:/home/israamaciaas/ros2_ws/install/ros_move:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/israamaciaas/ros2_ws/build/signal_generator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/israamaciaas/ros2_ws/install/signal_generator:/home/israamaciaas/ros2_ws/install/ros_move:/opt/ros/humble')]), 'shell': False}
+[6.098892] (signal_generator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.099301] (signal_generator) StdoutLine: {'line': b'-- Installing: /home/israamaciaas/ros2_ws/install/signal_generator/lib/signal_generator/signal_generator\n'}
+[6.101657] (signal_generator) StdoutLine: {'line': b'-- Set runtime path of "/home/israamaciaas/ros2_ws/install/signal_generator/lib/signal_generator/signal_generator" to ""\n'}
+[6.101994] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/ament_index/resource_index/package_run_dependencies/signal_generator\n'}
+[6.102163] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/ament_index/resource_index/parent_prefix_path/signal_generator\n'}
+[6.102436] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/environment/ament_prefix_path.sh\n'}
+[6.102746] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/environment/ament_prefix_path.dsv\n'}
+[6.102900] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/environment/path.sh\n'}
+[6.102977] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/environment/path.dsv\n'}
+[6.103049] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/local_setup.bash\n'}
+[6.103120] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/local_setup.sh\n'}
+[6.103191] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/local_setup.zsh\n'}
+[6.103268] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/local_setup.dsv\n'}
+[6.103338] (signal_generator) StdoutLine: {'line': b'-- Installing: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.dsv\n'}
+[6.103408] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/ament_index/resource_index/packages/signal_generator\n'}
+[6.103478] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/cmake/signal_generatorConfig.cmake\n'}
+[6.103547] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/cmake/signal_generatorConfig-version.cmake\n'}
+[6.103618] (signal_generator) StdoutLine: {'line': b'-- Up-to-date: /home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.xml\n'}
+[6.105905] (signal_generator) CommandEnded: {'returncode': 0}
+[6.130115] (-) TimerEvent: {}
+[6.173278] (signal_generator) JobEnded: {'identifier': 'signal_generator', 'rc': 0}
+[6.174575] (-) EventReactorShutdown: {}

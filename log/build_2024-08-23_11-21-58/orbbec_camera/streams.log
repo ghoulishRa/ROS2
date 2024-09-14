@@ -1,0 +1,158 @@
+[0.010s] Invoking command in '/home/israamaciaas/ros2_ws/build/orbbec_camera': AMENT_PREFIX_PATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/israamaciaas/ros2_ws/build/orbbec_camera -- -j8 -l8
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target orbbec_camera_node[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target orbbec_camera[0m
+[0.093s] [ 10%] Built target orbbec_camera_node
+[0.093s] [ 15%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/d2c_viewer.cpp.o[0m
+[0.095s] [ 25%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node.cpp.o[0m
+[0.095s] [ 25%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ros_service.cpp.o[0m
+[0.095s] [ 30%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/ob_camera_node_driver.cpp.o[0m
+[0.095s] [ 40%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/utils.cpp.o[0m
+[0.095s] [ 40%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/synced_imu_publisher.cpp.o[0m
+[0.095s] [ 45%] [32mBuilding CXX object CMakeFiles/orbbec_camera.dir/src/jpeg_decoder.cpp.o[0m
+[34.864s] [ 50%] [32m[1mLinking CXX shared library liborbbec_camera.so[0m
+[35.501s] [ 60%] Built target orbbec_camera
+[35.528s] [ 80%] [32mBuilding CXX object CMakeFiles/list_camera_profile_mode_node.dir/tools/list_camera_profile.cpp.o[0m
+[35.529s] [ 80%] [32mBuilding CXX object CMakeFiles/list_depth_work_mode_node.dir/tools/list_depth_work_mode.cpp.o[0m
+[35.529s] [ 80%] [32mBuilding CXX object CMakeFiles/topic_statistics_node.dir/tools/topic_statistics.cpp.o[0m
+[35.529s] [ 80%] [32mBuilding CXX object CMakeFiles/list_devices_node.dir/tools/list_devices_node.cpp.o[0m
+[46.285s] [ 85%] [32m[1mLinking CXX executable list_depth_work_mode_node[0m
+[46.520s] [ 90%] [32m[1mLinking CXX executable list_devices_node[0m
+[46.647s] [ 90%] Built target list_depth_work_mode_node
+[46.713s] [ 95%] [32m[1mLinking CXX executable list_camera_profile_mode_node[0m
+[47.778s] [ 95%] Built target list_devices_node
+[47.815s] [ 95%] Built target list_camera_profile_mode_node
+[52.533s] [100%] [32m[1mLinking CXX executable topic_statistics_node[0m
+[52.941s] [100%] Built target topic_statistics_node
+[52.958s] Invoked command in '/home/israamaciaas/ros2_ws/build/orbbec_camera' returned '0': AMENT_PREFIX_PATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/israamaciaas/ros2_ws/build/orbbec_camera -- -j8 -l8
+[53.040s] Invoking command in '/home/israamaciaas/ros2_ws/build/orbbec_camera': AMENT_PREFIX_PATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/israamaciaas/ros2_ws/build/orbbec_camera
+[53.050s] -- Install configuration: "Release"
+[53.050s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node
+[53.051s] -- Set runtime path of "/home/israamaciaas/ros2_ws/install/orbbec_camera/lib/orbbec_camera/orbbec_camera_node" to ":/home/israamaciaas/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[53.051s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib/liborbbec_camera.so
+[53.056s] -- Set runtime path of "/home/israamaciaas/ros2_ws/install/orbbec_camera/lib/liborbbec_camera.so" to ":/home/israamaciaas/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[53.057s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include
+[53.057s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/orbbec_camera
+[53.057s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/orbbec_camera/jetson_nv_decoder.h
+[53.057s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node.h
+[53.057s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/orbbec_camera/constants.h
+[53.057s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/orbbec_camera/d2c_viewer.h
+[53.057s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/orbbec_camera/rk_mpp_decoder.h
+[53.058s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/orbbec_camera/ob_camera_node_driver.h
+[53.058s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/orbbec_camera/synced_imu_publisher.h
+[53.058s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/orbbec_camera/jpeg_decoder.h
+[53.058s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/orbbec_camera/utils.h
+[53.058s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/orbbec_camera/dynamic_params.h
+[53.058s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/orbbec_camera/ros_param_backend.h
+[53.059s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/magic_enum
+[53.059s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/magic_enum/magic_enum.hpp
+[53.059s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch
+[53.059s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcl.py
+[53.060s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_bolt.launch.py
+[53.060s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e_lite.launch.py
+[53.060s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra2.launch.py
+[53.060s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto.launch.py
+[53.061s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_pro.launch.py
+[53.061s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_e.launch.py
+[53.061s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra.launch.py
+[53.061s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw.launch.py
+[53.062s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/femto_mega.launch.py
+[53.062s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_max_pro.launch.py
+[53.062s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2VL.launch.py
+[53.062s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_stereo_u3.launch.py
+[53.063s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dcw2.launch.py
+[53.063s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_embedded_s.launch.py
+[53.063s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/ob_camera.launch.py
+[53.063s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_ew.launch.py
+[53.064s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2.launch.py
+[53.064s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw.launch.py
+[53.064s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_uw.launch.py
+[53.064s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_330_series.launch.py
+[53.065s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_dw2.launch.py
+[53.065s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_max.launch.py
+[53.065s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini_ew_lite.launch.py
+[53.066s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera.launch.py
+[53.066s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai_d1.launch.py
+[53.066s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_pro2.launch.py
+[53.066s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2XL.launch.py
+[53.067s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/dabai.launch.py
+[53.067s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/deeya.launch.py
+[53.067s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/gemini2L.launch.py
+[53.067s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/multi_camera_synced.launch.py
+[53.068s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//launch/astra_adv.launch.py
+[53.068s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//config
+[53.068s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/OrbbecSDKConfig_v1.0.xml
+[53.069s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/.gitkeep
+[53.069s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/camera_params.yaml
+[53.069s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter
+[53.069s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Gemini2_v1.7.json
+[53.070s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera//config/depthfilter/Openni_device.json
+[53.070s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/orbbec_camera/include
+[53.070s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor
+[53.070s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp
+[53.070s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Utils.hpp
+[53.071s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Types.hpp
+[53.071s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/RecordPlayback.hpp
+[53.071s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/StreamProfile.hpp
+[53.071s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Frame.hpp
+[53.071s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Version.hpp
+[53.071s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Error.hpp
+[53.071s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Filter.hpp
+[53.072s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Context.hpp
+[53.072s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Device.hpp
+[53.072s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Sensor.hpp
+[53.072s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/hpp/Pipeline.hpp
+[53.072s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/ObSensor.h
+[53.073s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/ObSensor.hpp
+[53.073s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h
+[53.073s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/Device.h
+[53.073s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/RecordPlayback.h
+[53.073s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/Frame.h
+[53.074s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/Context.h
+[53.074s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/Version.h
+[53.074s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/Sensor.h
+[53.074s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/ObTypes.h
+[53.075s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/StreamProfile.h
+[53.075s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/Error.h
+[53.075s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/Pipeline.h
+[53.075s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/Property.h
+[53.076s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/Utils.h
+[53.076s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/Filter.h
+[53.076s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/include/libobsensor/h/MultipleDevices.h
+[53.077s] -- Up-to-date: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib/
+[53.077s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so
+[53.077s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib//liblive555.so
+[53.079s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10.12
+[53.101s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib//libob_usb.so
+[53.101s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib//libdepthengine.so.2.0
+[53.103s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib//libdepthengine.so
+[53.104s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10
+[53.104s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node
+[53.104s] -- Set runtime path of "/home/israamaciaas/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_devices_node" to ":/home/israamaciaas/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[53.104s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node
+[53.105s] -- Set runtime path of "/home/israamaciaas/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_depth_work_mode_node" to ":/home/israamaciaas/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[53.105s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node
+[53.105s] -- Set runtime path of "/home/israamaciaas/ros2_ws/install/orbbec_camera/lib/orbbec_camera/list_camera_profile_mode_node" to ":/home/israamaciaas/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[53.106s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node
+[53.108s] -- Set runtime path of "/home/israamaciaas/ros2_ws/install/orbbec_camera/lib/orbbec_camera/topic_statistics_node" to ":/home/israamaciaas/ros2_ws/src/OrbbecSDK_ROS2/orbbec_camera/SDK/lib/x64"
+[53.108s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.sh
+[53.108s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/library_path.dsv
+[53.108s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/ament_index/resource_index/package_run_dependencies/orbbec_camera
+[53.109s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/ament_index/resource_index/parent_prefix_path/orbbec_camera
+[53.109s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.sh
+[53.109s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/ament_prefix_path.dsv
+[53.110s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/path.sh
+[53.110s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/environment/path.dsv
+[53.110s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.bash
+[53.110s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.sh
+[53.111s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.zsh
+[53.111s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/local_setup.dsv
+[53.111s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/package.dsv
+[53.112s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/ament_index/resource_index/packages/orbbec_camera
+[53.112s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/ament_index/resource_index/rclcpp_components/orbbec_camera
+[53.112s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.112s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[53.113s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.113s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig.cmake
+[53.113s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/cmake/orbbec_cameraConfig-version.cmake
+[53.113s] -- Installing: /home/israamaciaas/ros2_ws/install/orbbec_camera/share/orbbec_camera/package.xml
+[53.118s] Invoked command in '/home/israamaciaas/ros2_ws/build/orbbec_camera' returned '0': AMENT_PREFIX_PATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/israamaciaas/ros2_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/israamaciaas/ros2_ws/build/orbbec_camera
