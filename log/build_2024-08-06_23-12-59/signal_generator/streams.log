@@ -1,5 +1,0 @@
-[0.019s] Invoking command in '/home/israamaciaas/ros2_ws/build/signal_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/israamaciaas/ros2_ws/install/ros_move:/opt/ros/humble /usr/bin/cmake --build /home/israamaciaas/ros2_ws/build/signal_generator -- -j8 -l8
-[0.052s] [0mCMake Error: The source directory "/home/israamaciaas/ros2_ws/signal_generator" does not exist.
-[0.052s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.054s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
-[0.059s] Invoked command in '/home/israamaciaas/ros2_ws/build/signal_generator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/israamaciaas/ros2_ws/install/ros_move:/opt/ros/humble /usr/bin/cmake --build /home/israamaciaas/ros2_ws/build/signal_generator -- -j8 -l8

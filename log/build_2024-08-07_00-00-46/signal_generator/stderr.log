@@ -1,7 +1,0 @@
-[01m[K/home/israamaciaas/ros2_ws/src/signal_generator/src/signal_generator.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msgs/string.hpp: No such file or directory
-    7 | #include [01;31m[K"std_msgs/msgs/string.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/signal_generator.dir/build.make:76: CMakeFiles/signal_generator.dir/src/signal_generator.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/signal_generator.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
