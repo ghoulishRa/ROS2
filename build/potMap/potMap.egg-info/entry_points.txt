@@ -1,0 +1,3 @@
+[console_scripts]
+potMap_node = potMap.potMap_node:main
+

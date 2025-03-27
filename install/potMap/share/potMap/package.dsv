@@ -1,0 +1,6 @@
+source;share/potMap/hook/pythonpath.ps1
+source;share/potMap/hook/pythonpath.dsv
+source;share/potMap/hook/pythonpath.sh
+source;share/potMap/hook/ament_prefix_path.ps1
+source;share/potMap/hook/ament_prefix_path.dsv
+source;share/potMap/hook/ament_prefix_path.sh

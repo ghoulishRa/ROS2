@@ -1,0 +1,3 @@
+[console_scripts]
+turtleFigureNode = turtle_figure.turtleFigureNode:main
+
