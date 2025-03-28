@@ -7,7 +7,7 @@ class turleFigureNode (Node):
     def __init__(self):
         super().__init__('turtle_figure')
         self.publisher_ = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
-        time.sleep(1)  # Allow some time for the publisher to set up
+        
 
         self.draw_all_shapes()
 
@@ -38,7 +38,7 @@ class turleFigureNode (Node):
             self.publisher_.publish(twist)
             time.sleep(0.5)
 
-        self.get_logger().info("Finished drawing a square.")
+        #self.get_logger().info("Finished drawing a square.")
     
     def draw_triangle(self):
         twist = Twist()
@@ -67,15 +67,13 @@ class turleFigureNode (Node):
             self.publisher_.publish(twist)
             time.sleep(0.5)
 
-        self.get_logger().info("Finished drawing a triangle.")
+        #self.get_logger().info("Finished drawing a triangle.")
     
     def draw_circle(self):
         twist = Twist()
         twist.linear.x = 2.0  # Forward speed
         twist.angular.z = 1.0  # Rotation speed (controls circle radius)
-
-        self.get_logger().info("Drawing a circle...")
-        
+ 
         # Publish the velocity continuously for smooth movement
         start_time = time.time()
         while time.time() - start_time < 6:  # Draw for 10 seconds
@@ -87,12 +85,13 @@ class turleFigureNode (Node):
         twist.angular.z = 0.0
         self.publisher_.publish(twist)
         
-        self.get_logger().info("Finished drawing a circle.")
+        #self.get_logger().info("Finished drawing a circle.")
 
     def draw_all_shapes(self):
         self.steps = 0
         self.state = 'IDLE'
 
+        #create a dictionary to save states#
         state_actions = {
             'IDLE': self.draw_circle,
             'SQUARE': self.draw_square,
@@ -100,13 +99,14 @@ class turleFigureNode (Node):
         }
 
         while True:
-            # Call the appropriate function based on the current state
+            
             action = state_actions.get(self.state, None)
+
+            #if the state was found, an actions runs and automatically add one step#
             if action:
                 action()
                 self.steps += 1
 
-            # Determine the next state
             match self.state:
                 case 'IDLE':
                     self.state = 'TRIANGLE' if self.steps % 2 == 0 else 'SQUARE'
@@ -115,11 +115,10 @@ class turleFigureNode (Node):
                 case 'TRIANGLE':
                     self.state = 'CIRCLE' if self.steps % 2 == 0 else 'SQUARE'
                 case 'CIRCLE':
-                    self.state = 'IDLE'  # Reset to IDLE to continue the loop
+                    self.state = 'IDLE' 
 
-            print("Counter:", self.steps)
-            print("State:", self.state)
-
+            # print("Counter:", self.steps)
+            # print("State:", self.state)
 
 def main(args=None):
     rclpy.init(args=args)

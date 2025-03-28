@@ -7,7 +7,7 @@ class turleFigureNode (Node):
     def __init__(self):
         super().__init__('turtle_figure')
         self.publisher_ = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
-        time.sleep(1)  # Allow some time for the publisher to set up
+        
 
         self.draw_all_shapes()
 
@@ -100,13 +100,13 @@ class turleFigureNode (Node):
         }
 
         while True:
-            # Call the appropriate function based on the current state
+            
             action = state_actions.get(self.state, None)
+
             if action:
                 action()
                 self.steps += 1
 
-            # Determine the next state
             match self.state:
                 case 'IDLE':
                     self.state = 'TRIANGLE' if self.steps % 2 == 0 else 'SQUARE'
@@ -115,11 +115,10 @@ class turleFigureNode (Node):
                 case 'TRIANGLE':
                     self.state = 'CIRCLE' if self.steps % 2 == 0 else 'SQUARE'
                 case 'CIRCLE':
-                    self.state = 'IDLE'  # Reset to IDLE to continue the loop
+                    self.state = 'IDLE' 
 
-            print("Counter:", self.steps)
-            print("State:", self.state)
-
+            # print("Counter:", self.steps)
+            # print("State:", self.state)
 
 def main(args=None):
     rclpy.init(args=args)
