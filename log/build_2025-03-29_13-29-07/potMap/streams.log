@@ -1,0 +1,24 @@
+[2.947s] Invoking command in '/home/israamaciaas/ros2_ws/src/potMap': PYTHONPATH=/home/israamaciaas/ros2_ws/build/potMap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/potMap build --build-base /home/israamaciaas/ros2_ws/build/potMap/build install --record /home/israamaciaas/ros2_ws/build/potMap/install.log --single-version-externally-managed install_data
+[3.627s] running egg_info
+[3.630s] writing ../../build/potMap/potMap.egg-info/PKG-INFO
+[3.630s] writing dependency_links to ../../build/potMap/potMap.egg-info/dependency_links.txt
+[3.631s] writing entry points to ../../build/potMap/potMap.egg-info/entry_points.txt
+[3.631s] writing requirements to ../../build/potMap/potMap.egg-info/requires.txt
+[3.631s] writing top-level names to ../../build/potMap/potMap.egg-info/top_level.txt
+[3.639s] reading manifest file '../../build/potMap/potMap.egg-info/SOURCES.txt'
+[3.640s] writing manifest file '../../build/potMap/potMap.egg-info/SOURCES.txt'
+[3.640s] running build
+[3.640s] running build_py
+[3.640s] copying potMap/potMap_node.py -> /home/israamaciaas/ros2_ws/build/potMap/build/lib/potMap
+[3.641s] running install
+[3.642s] running install_lib
+[3.643s] copying /home/israamaciaas/ros2_ws/build/potMap/build/lib/potMap/potMap_node.py -> /home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap
+[3.653s] byte-compiling /home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap/potMap_node.py to potMap_node.cpython-310.pyc
+[3.654s] running install_data
+[3.654s] running install_egg_info
+[3.660s] removing '/home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap-0.0.0-py3.10.egg-info' (and everything under it)
+[3.660s] Copying ../../build/potMap/potMap.egg-info to /home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap-0.0.0-py3.10.egg-info
+[3.665s] running install_scripts
+[3.718s] Installing potMap_node script to /home/israamaciaas/ros2_ws/install/potMap/lib/potMap
+[3.719s] writing list of installed files to '/home/israamaciaas/ros2_ws/build/potMap/install.log'
+[3.861s] Invoked command in '/home/israamaciaas/ros2_ws/src/potMap' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/potMap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/potMap build --build-base /home/israamaciaas/ros2_ws/build/potMap/build install --record /home/israamaciaas/ros2_ws/build/potMap/install.log --single-version-externally-managed install_data
