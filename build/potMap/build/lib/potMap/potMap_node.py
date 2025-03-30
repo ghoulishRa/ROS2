@@ -18,7 +18,7 @@ class PotentialMap(Node):
         self.click_sub = self.create_subscription(PointStamped, 'clicked_point', self.click_cb,10)
 
         self.tf_buffer = tf2_ros.Buffer()
-        self.tf_listener = tf2_ros.TransformListener(self.tf_buffer,self)
+        self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
 
 
         """Publishers"""
@@ -48,11 +48,11 @@ class PotentialMap(Node):
 
         #Forces#
         self.F_rep_ang = 0.0
-        self.F_rep_mag = 0.0
+        self.F_rep_mag = 0.0    
         
-        self.k_att = 10.0 #attraction force to clickpoint
+        self.k_att = 1.0 #attraction force to clickpoint
 
-        self.k_linear = 0.005
+        self.k_linear = 0.0008
         self.k_angular  = 0.005
 
 
@@ -60,43 +60,6 @@ class PotentialMap(Node):
         self.click_x = msg.point.x
         self.click_y = msg.point.y
         
-
-    def speed_timer_cb (self):
-
-        dx = self.pose_x - self.click_x
-        dy = self.pose_y - self.click_y
-
-
-        Fx_att = -self.k_att * (dx)
-        Fy_att = -self.k_att * (dy)
-
-        # Fx_total = self.Fx_rep + Fx_att
-        # Fy_total = self.Fy_rep + Fy_att
-
-        F_att_ang = np.arctan2(Fy_att, Fx_att)
-        F_att_mag = np.linalg.norm((Fx_att, Fy_att))
-
-        F_mag_total = F_att_mag - self.F_rep_mag
-        F_ang_total = F_att_ang - self.F_rep_ang
-
-        print ("Att_ang: ", F_att_ang)
-        print ("Att_mag: ", F_att_mag)
-
-        print ("Rep_ang: ", self.F_rep_ang)
-        print ("Rep_mag: ", self.F_rep_mag)
-
-        e_theta = F_ang_total - self.theta_rob
-        e_theta = np.arctan2(np.sin(e_theta), np.cos(e_theta))
-
-        self.speed.linear.x = self.k_linear * F_mag_total
-        self.speed.angular.z = self.k_angular * e_theta
-
-        print("linear_speed:", self.speed.linear.x)
-        print("angular_speed:", self.speed.angular.z)
-
-
-        self.robot_speed.publish(self.speed)
-
     def tf_timer_cb (self):
 
         self.transformation = self.tf_buffer.lookup_transform(
@@ -107,16 +70,8 @@ class PotentialMap(Node):
 
         self.pose_x = self.transformation.transform.translation.x
         self.pose_y = self.transformation.transform.translation.y
-
         self.theta_rob = self.transformation.transform.rotation.w
-
-        # print("robot x:", self.pose_x)
-        # print("robot y:", self.pose_y)
-        # print("click x:", self.click_x)
-        # print("click y:", self.click_y)
     
-    
-
     def lidar_callback(self, msg):
 
         self.Fx_rep = 0.0
@@ -137,8 +92,43 @@ class PotentialMap(Node):
 
 
         #getting repulsion force magnitude and angle#
-        self.F_rep_ang = np.arctan2(self.Fy_rep, self.Fx_rep + self.Fy_rep) + np.pi #add pi to invert direction
-        self.F_rep_mag = np.linalg.norm((self.Fx_rep + self.Fy_rep,self.Fy_rep)) 
+        self.F_rep_ang = np.arctan2(self.Fy_rep, self.Fx_rep) + np.pi #add pi to invert direction
+        self.F_rep_mag = np.linalg.norm((self.Fx_rep, self.Fy_rep)) 
+
+        self.speed.linear.x = self.k_linear * self.F_rep_mag
+        self.speed.angular.z = self.k_angular * self.F_rep_ang
+
+        print("linear_speed:", self.speed.linear.x)
+        print("angular_speed:", self.speed.angular.z)
+
+        self.robot_speed.publish(self.speed)
+
+    def speed_timer_cb (self):
+
+            dx = self.pose_x - self.click_x
+            dy = self.pose_y - self.click_y
+
+            Fx_att = -self.k_att * dx
+            Fy_att = -self.k_att * dy
+
+            # d_goal = np.sqrt(dx**2 + dy**2)
+
+            F_att_ang  = np.arctan2(Fy_att,Fx_att)
+            F_att_mag = np.linalg.norm((Fx_att,Fy_att))
+
+            print ("Att_mag:", F_att_mag)
+
+
+            F_mag_total = F_att_mag - self.F_rep_mag
+            F_ang_total = F_att_ang - self.F_rep_ang
+
+            e_theta = F_ang_total - self.theta_rob
+            e_theta = np.arctan2(np.sin(e_theta),np.sin(e_theta))
+
+            
+
+
+            #self.robot_speed.publish(self.speed)
 
 
 def main(args=None):

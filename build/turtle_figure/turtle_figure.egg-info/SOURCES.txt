@@ -8,6 +8,7 @@ setup.py
 ../../build/turtle_figure/turtle_figure.egg-info/requires.txt
 ../../build/turtle_figure/turtle_figure.egg-info/top_level.txt
 ../../build/turtle_figure/turtle_figure.egg-info/zip-safe
+launch/launch.py
 resource/turtle_figure
 test/test_copyright.py
 test/test_flake8.py
