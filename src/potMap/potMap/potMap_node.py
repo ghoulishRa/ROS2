@@ -5,6 +5,7 @@ from sensor_msgs.msg import LaserScan
 from geometry_msgs.msg import Twist, PointStamped
 #   from nav_msgs.msg import Odometry
 import tf2_ros
+import transforms3d
 import numpy as np
 
 
@@ -15,7 +16,7 @@ class PotentialMap(Node):
 
         """Suscriptions"""
         self.laser = self.create_subscription(LaserScan, '/scan', self.lidar_callback, 10)
-        self.click_sub = self.create_subscription(PointStamped, 'clicked_point', self.click_cb,10)
+        self.click_sub = self.create_subscription(PointStamped, '/clicked_point', self.click_cb, 10)
 
         self.tf_buffer = tf2_ros.Buffer()
         self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
@@ -34,9 +35,9 @@ class PotentialMap(Node):
         self.pose_y = 0.0
         self.theta_rob = 0.0
 
-        self.click_x = 0.0
-        self.click_y = 0.0
-        self.click_theta = 0.0
+        self.click_x = -1.0
+        self.click_y = 1.0
+        #self.click_theta = 0.0
 
         """Messages"""
         self.speed = Twist()
@@ -48,17 +49,24 @@ class PotentialMap(Node):
 
         #Forces#
         self.F_rep_ang = 0.0
-        self.F_rep_mag = 0.0    
-        
-        self.k_att = 1.0 #attraction force to clickpoint
+        self.F_rep_mag = 0.0  
 
-        self.k_linear = 0.0008
-        self.k_angular  = 0.005
+        self.Fx_rep = 0.0
+        self.Fy_rep = 0.0
+  
+        
+        self.k_att = 4.0 #attraction force to clickpoint
+
+        self.k_linear = 0.05
+        self.k_angular  = 2.0
 
 
     def click_cb (self, msg):
+
         self.click_x = msg.point.x
         self.click_y = msg.point.y
+
+        
         
     def tf_timer_cb (self):
 
@@ -67,15 +75,20 @@ class PotentialMap(Node):
             'base_link',
             rclpy.time.Time())
 
+        orientation = self.transformation.transform.rotation
+
+        q = [orientation.w, orientation.x, orientation.y, orientation.z]
+
+        _, _, yaw = transforms3d.euler.quat2euler(q)
 
         self.pose_x = self.transformation.transform.translation.x
         self.pose_y = self.transformation.transform.translation.y
-        self.theta_rob = self.transformation.transform.rotation.w
+        self.theta_rob = yaw
+        if self.theta_rob < 0.0:
+            self.theta_rob += 2.0*np.pi
     
     def lidar_callback(self, msg):
 
-        self.Fx_rep = 0.0
-        self.Fy_rep = 0.0
 
         
         self.ranges = np.asarray(msg.ranges)
@@ -86,49 +99,69 @@ class PotentialMap(Node):
 
 
         for i, deg in enumerate (self.angles):
-            if (self.ranges[i]<2.61):
+            if (self.ranges[i]<0.5):
                 self.Fx_rep = self.Fx_rep + (1/self.ranges[i])**2 * np.cos(deg)
                 self.Fy_rep = self.Fy_rep + (1/self.ranges[i])**2 * np.sin(deg)
 
 
+
+
         #getting repulsion force magnitude and angle#
-        self.F_rep_ang = np.arctan2(self.Fy_rep, self.Fx_rep) + np.pi #add pi to invert direction
+        self.F_rep_ang = np.arctan2(self.Fy_rep, self.Fx_rep) - self.theta_rob #add pi to invert direction
         self.F_rep_mag = np.linalg.norm((self.Fx_rep, self.Fy_rep)) 
 
-        self.speed.linear.x = self.k_linear * self.F_rep_mag
-        self.speed.angular.z = self.k_angular * self.F_rep_ang
+        # self.speed.linear.x = self.k_linear * self.F_rep_mag
+        # self.speed.angular.z = self.k_angular * self.F_rep_ang
 
-        print("linear_speed:", self.speed.linear.x)
-        print("angular_speed:", self.speed.angular.z)
+        # print("linear_speed:", self.speed.linear.x)
+        # print("angular_speed:", self.speed.angular.z)
 
-        self.robot_speed.publish(self.speed)
+        #self.robot_speed.publish(self.speed)
 
     def speed_timer_cb (self):
 
             dx = self.pose_x - self.click_x
             dy = self.pose_y - self.click_y
 
-            Fx_att = -self.k_att * dx
-            Fy_att = -self.k_att * dy
+            Fx_att = self.k_att * dx
+            Fy_att = self.k_att * dy
 
-            # d_goal = np.sqrt(dx**2 + dy**2)
+            print("Fx_att: ", Fx_att)
+            print("Fy_att: ", Fy_att)
 
-            F_att_ang  = np.arctan2(Fy_att,Fx_att)
-            F_att_mag = np.linalg.norm((Fx_att,Fy_att))
+            print("Fx_rep: ", self.Fx_rep)
+            print("Fy_rep: ", self.Fy_rep)
 
-            print ("Att_mag:", F_att_mag)
+            print("yaw:", self.theta_rob)
 
+            d_goal = np.sqrt(dx**2 + dy**2)
 
-            F_mag_total = F_att_mag - self.F_rep_mag
-            F_ang_total = F_att_ang - self.F_rep_ang
+            # F_att_ang  = np.arctan2(Fy_att,Fx_att)
+            # F_att_mag = np.linalg.norm((Fx_att,Fy_att))
 
-            e_theta = F_ang_total - self.theta_rob
-            e_theta = np.arctan2(np.sin(e_theta),np.sin(e_theta))
+            Fx_total = Fx_att - self.Fx_rep
+            Fy_total = Fy_att - self.Fy_rep
 
-            
+            F_total_ang = (np.arctan2(Fy_total,Fx_total) + np.pi) - self.theta_rob
+            F_total_mag = np.sqrt(Fx_total**2 + Fy_total**2)
 
+            print("F_total_ang", F_total_ang )
+            print("F_total_mag", F_total_mag )
 
-            #self.robot_speed.publish(self.speed)
+            self.speed.linear.x = self.k_linear * F_total_mag
+            self.speed.angular.z = -(self.k_angular * F_total_ang)
+
+            if d_goal < 0.1:
+                self.speed.linear.x = 0.0
+                self.speed.angular.z = 0.0
+
+            print ("click_x:",self.click_x)
+            print ("click_y:",self.click_y)
+
+            print("linear_speed:", self.speed.linear.x)
+            print("angular_speed:", self.speed.angular.z)
+
+            self.robot_speed.publish(self.speed)
 
 
 def main(args=None):

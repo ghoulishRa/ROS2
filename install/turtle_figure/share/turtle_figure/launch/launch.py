@@ -16,6 +16,11 @@ def generate_launch_description():
         #namespace='turtle_figure_launch',
         executable='turtleFigureNode'
       )
+    rqt_graph_node = Node(
+        package='rqt_graph',
+        executable='rqt_graph',
+        output = 'screen'
 
-    ld = LaunchDescription([turtlesim_node, turtle_figure_node])
+    )
+    ld = LaunchDescription([turtlesim_node, turtle_figure_node, rqt_graph_node])
     return ld
