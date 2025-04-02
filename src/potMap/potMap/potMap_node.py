@@ -57,10 +57,10 @@ class PotentialMap(Node):
   
         
         self.k_att = 2.0 #attraction force to clickpoint
-        self.k_rep = 2.0
+        self.k_rep = 1.0
 
         self.k_linear = 0.01
-        self.k_angular  = 0.5  
+        self.k_angular  = 1.0
 
 
     def click_cb (self, msg):
@@ -105,12 +105,12 @@ class PotentialMap(Node):
 
         for i, deg in enumerate (self.angles):
             # if (0 <= deg <= (np.pi)/4) and (2*(np.pi)-(np.pi)/4 <= deg <= 2*(np.pi)):
-            if (self.ranges[i]<0.5):
+            if (self.ranges[i]<0.25):
                 self.Fx_rep += (1/self.ranges[i]) * np.cos(deg)
                 self.Fy_rep += (1/self.ranges[i]) * np.sin(deg)
 
-        self.Fx_rep = -(self.Fx_rep/600.0)*40.0
-        self.Fy_rep = -(self.Fy_rep/600.0)*40.0
+        self.Fx_rep = (self.Fx_rep/600.0)*40.0
+        self.Fy_rep = (self.Fy_rep/600.0)*40.0
 
 
     def speed_timer_cb (self):
@@ -124,6 +124,7 @@ class PotentialMap(Node):
 
             if self.Fy_rep == 0 and self.Fx_rep == 0 :
                 self.F_rep_ang = 0
+
             self.F_rep_mag = np.linalg.norm((self.Fx_rep, self.Fy_rep))  
 
             print("Fx_rep: ", self.Fx_rep)
@@ -157,11 +158,11 @@ class PotentialMap(Node):
             Fx_total = Fx_att + (self.k_rep*self.Fx_rep)
             Fy_total = Fy_att + (self.k_rep*self.Fy_rep)
 
-            F_total_ang = (np.arctan2(Fy_total,Fx_total)+np.pi) - self.theta_rob
+            F_total_ang = (np.arctan2(Fy_total,Fx_total) + np.pi) - self.theta_rob
             F_total_mag = np.sqrt(Fx_total**2 + Fy_total**2)
 
-            # print("F_total_ang", F_total_ang )
-            # print("F_total_mag", F_total_mag )
+            print("F_total_ang", F_total_ang )
+            print("F_total_mag", F_total_mag )
 
             self.speed.linear.x = self.k_linear * F_total_mag
             self.speed.angular.z = (self.k_angular * F_total_ang)

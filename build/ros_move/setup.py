@@ -1,1 +1,0 @@
-/home/israamaciaas/ros2_ws/src/ros_move/setup.py

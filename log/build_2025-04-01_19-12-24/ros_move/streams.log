@@ -1,0 +1,43 @@
+[2.154s] Invoking command in '/home/israamaciaas/ros2_ws/build/ros_move': PYTHONPATH=/home/israamaciaas/ros2_ws/build/ros_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/israamaciaas/ros2_ws/build/ros_move/build
+[2.567s] running develop
+[2.573s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.574s]   warnings.warn(
+[2.856s] Removing /home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages/ros-move.egg-link (link to .)
+[2.924s] Invoked command in '/home/israamaciaas/ros2_ws/build/ros_move' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/ros_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/israamaciaas/ros2_ws/build/ros_move/build
+[2.927s] Invoking command in '/home/israamaciaas/ros2_ws/src/ros_move': PYTHONPATH=/home/israamaciaas/ros2_ws/build/ros_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_move build --build-base /home/israamaciaas/ros2_ws/build/ros_move/build install --record /home/israamaciaas/ros2_ws/build/ros_move/install.log --single-version-externally-managed install_data --force
+[3.312s] running egg_info
+[3.314s] writing ../../build/ros_move/ros_move.egg-info/PKG-INFO
+[3.314s] writing dependency_links to ../../build/ros_move/ros_move.egg-info/dependency_links.txt
+[3.314s] writing entry points to ../../build/ros_move/ros_move.egg-info/entry_points.txt
+[3.314s] writing requirements to ../../build/ros_move/ros_move.egg-info/requires.txt
+[3.314s] writing top-level names to ../../build/ros_move/ros_move.egg-info/top_level.txt
+[3.318s] reading manifest file '../../build/ros_move/ros_move.egg-info/SOURCES.txt'
+[3.320s] writing manifest file '../../build/ros_move/ros_move.egg-info/SOURCES.txt'
+[3.320s] running build
+[3.320s] running build_py
+[3.320s] creating /home/israamaciaas/ros2_ws/build/ros_move/build
+[3.320s] creating /home/israamaciaas/ros2_ws/build/ros_move/build/lib
+[3.321s] creating /home/israamaciaas/ros2_ws/build/ros_move/build/lib/ros_move
+[3.321s] copying ros_move/bot_node.py -> /home/israamaciaas/ros2_ws/build/ros_move/build/lib/ros_move
+[3.321s] copying ros_move/__init__.py -> /home/israamaciaas/ros2_ws/build/ros_move/build/lib/ros_move
+[3.321s] copying ros_move/fuzzy_controller_node.py -> /home/israamaciaas/ros2_ws/build/ros_move/build/lib/ros_move
+[3.322s] running install
+[3.322s] running install_lib
+[3.324s] creating /home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages/ros_move
+[3.324s] copying /home/israamaciaas/ros2_ws/build/ros_move/build/lib/ros_move/bot_node.py -> /home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages/ros_move
+[3.324s] copying /home/israamaciaas/ros2_ws/build/ros_move/build/lib/ros_move/__init__.py -> /home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages/ros_move
+[3.324s] copying /home/israamaciaas/ros2_ws/build/ros_move/build/lib/ros_move/fuzzy_controller_node.py -> /home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages/ros_move
+[3.325s] byte-compiling /home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages/ros_move/bot_node.py to bot_node.cpython-310.pyc
+[3.327s] byte-compiling /home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages/ros_move/__init__.py to __init__.cpython-310.pyc
+[3.328s] byte-compiling /home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages/ros_move/fuzzy_controller_node.py to fuzzy_controller_node.cpython-310.pyc
+[3.329s] running install_data
+[3.329s] copying resource/ros_move -> /home/israamaciaas/ros2_ws/install/ros_move/share/ament_index/resource_index/packages
+[3.329s] copying package.xml -> /home/israamaciaas/ros2_ws/install/ros_move/share/ros_move
+[3.329s] copying launch/fuzzy_launch.py -> /home/israamaciaas/ros2_ws/install/ros_move/share/ros_move/launch
+[3.330s] running install_egg_info
+[3.333s] Copying ../../build/ros_move/ros_move.egg-info to /home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages/ros_move-0.0.0-py3.10.egg-info
+[3.334s] running install_scripts
+[3.368s] Installing bot_node script to /home/israamaciaas/ros2_ws/install/ros_move/lib/ros_move
+[3.368s] Installing fuzzy_controller_node script to /home/israamaciaas/ros2_ws/install/ros_move/lib/ros_move
+[3.369s] writing list of installed files to '/home/israamaciaas/ros2_ws/build/ros_move/install.log'
+[3.430s] Invoked command in '/home/israamaciaas/ros2_ws/src/ros_move' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/ros_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_move build --build-base /home/israamaciaas/ros2_ws/build/ros_move/build install --record /home/israamaciaas/ros2_ws/build/ros_move/install.log --single-version-externally-managed install_data --force
