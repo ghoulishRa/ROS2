@@ -1,0 +1,26 @@
+[2.018s] Invoking command in '/home/israamaciaas/ros2_ws/build/potMap': PYTHONPATH=/home/israamaciaas/ros2_ws/build/potMap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/israamaciaas/ros2_ws/build/potMap/build --no-deps symlink_data
+[2.463s] running develop
+[2.464s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.464s]   warnings.warn(
+[2.862s] running egg_info
+[2.862s] creating potMap.egg-info
+[2.864s] writing potMap.egg-info/PKG-INFO
+[2.864s] writing dependency_links to potMap.egg-info/dependency_links.txt
+[2.865s] writing entry points to potMap.egg-info/entry_points.txt
+[2.865s] writing requirements to potMap.egg-info/requires.txt
+[2.865s] writing top-level names to potMap.egg-info/top_level.txt
+[2.866s] writing manifest file 'potMap.egg-info/SOURCES.txt'
+[2.868s] reading manifest file 'potMap.egg-info/SOURCES.txt'
+[2.869s] writing manifest file 'potMap.egg-info/SOURCES.txt'
+[2.959s] running build_ext
+[2.959s] Creating /home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap.egg-link (link to .)
+[2.959s] Installing potMap_node script to /home/israamaciaas/ros2_ws/install/potMap/lib/potMap
+[2.960s] 
+[2.960s] Installed /home/israamaciaas/ros2_ws/build/potMap
+[2.960s] running symlink_data
+[2.960s] creating /home/israamaciaas/ros2_ws/install/potMap/share/ament_index
+[2.960s] creating /home/israamaciaas/ros2_ws/install/potMap/share/ament_index/resource_index
+[2.960s] creating /home/israamaciaas/ros2_ws/install/potMap/share/ament_index/resource_index/packages
+[2.960s] symbolically linking /home/israamaciaas/ros2_ws/build/potMap/resource/potMap -> /home/israamaciaas/ros2_ws/install/potMap/share/ament_index/resource_index/packages
+[2.961s] symbolically linking /home/israamaciaas/ros2_ws/build/potMap/package.xml -> /home/israamaciaas/ros2_ws/install/potMap/share/potMap
+[3.081s] Invoked command in '/home/israamaciaas/ros2_ws/build/potMap' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/potMap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/israamaciaas/ros2_ws/build/potMap/build --no-deps symlink_data

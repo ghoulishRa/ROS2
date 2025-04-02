@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 import rclpy.time
 from sensor_msgs.msg import LaserScan
-from geometry_msgs.msg import Twist, PointStamped, Pose2D
+from geometry_msgs.msg import Twist, PointStamped, Pose2D, PoseStamped
 #   from nav_msgs.msg import Odometry
 import tf2_ros
 import transforms3d
@@ -23,7 +23,7 @@ class PotentialMap(Node):
 
         """Publishers"""
         self.robot_speed = self.create_publisher(Twist, 'cmd_vel', 10)
-        self.vector = self.create_publisher(Pose2D, '/rob_vector', 10)
+        self.vector = self.create_publisher(PoseStamped, '/rob_vector', 10)
 
         """Timers """
 
@@ -35,12 +35,13 @@ class PotentialMap(Node):
         self.pose_y = 0.0
         self.theta_rob = 0.0
 
-        self.click_x = 10.0
-        self.click_y = 10.0        #self.click_theta = 0.0
+        self.click = PointStamped()    #self.click_theta = 0.0
+        self.click_x = self.click.point.x
+        self.click_y = self.click.point.y
 
         """Messages"""
         self.speed = Twist()
-        self.rob_pose = Pose2D()
+        self.rob_pose = PoseStamped()
 
         #Lidar data#
         self.ranges = []
@@ -55,8 +56,8 @@ class PotentialMap(Node):
         self.Fy_rep = 0.0
   
         
-        self.k_att = 7.0 #attraction force to clickpoint
-        self.k_rep = 0.2
+        self.k_att = 2.0 #attraction force to clickpoint
+        self.k_rep = 2.0
 
         self.k_linear = 0.01
         self.k_angular  = 0.5  
@@ -66,8 +67,10 @@ class PotentialMap(Node):
 
         """getting the clicked_point pose"""
 
-        self.click_x = msg.point.x
-        self.click_y = msg.point.y
+        self.click = msg
+
+        self.click_x = self.click.point.x
+        self.click_y = self.click.point.y
         
     def tf_timer_cb (self):
 
@@ -102,16 +105,23 @@ class PotentialMap(Node):
 
         for i, deg in enumerate (self.angles):
             # if (0 <= deg <= (np.pi)/4) and (2*(np.pi)-(np.pi)/4 <= deg <= 2*(np.pi)):
-            if (self.ranges[i]<1.0):
+            if (self.ranges[i]<0.5):
                 self.Fx_rep += (1/self.ranges[i]) * np.cos(deg)
                 self.Fy_rep += (1/self.ranges[i]) * np.sin(deg)
+
+        self.Fx_rep = -(self.Fx_rep/600.0)*40.0
+        self.Fy_rep = -(self.Fy_rep/600.0)*40.0
 
 
     def speed_timer_cb (self):
 
             """Repulsion forces calculation"""
             #getting repulsion force magnitude and angle#
-            self.F_rep_ang = (np.arctan2(self.Fy_rep, self.Fx_rep)- np.pi) - self.theta_rob  #add pi to invert direction
+
+            self.F_rep_ang = (np.arctan2(self.Fy_rep, self.Fx_rep)) - self.theta_rob  #add pi to invert direction
+            if self.F_rep_ang < 0.0:
+                self.F_rep_ang += 2.0*np.pi
+
             if self.Fy_rep == 0 and self.Fx_rep == 0 :
                 self.F_rep_ang = 0
             self.F_rep_mag = np.linalg.norm((self.Fx_rep, self.Fy_rep))  
@@ -160,9 +170,14 @@ class PotentialMap(Node):
                 self.speed.linear.x = 0.0
                 self.speed.angular.z = 0.0
             
-            self.rob_pose.x = Fx_total
-            self.rob_pose.y = Fy_total
-            self.rob_pose.theta = F_total_ang
+            self.rob_pose.pose.position.x = Fx_total
+            self.rob_pose.pose.position.y = Fy_total
+
+            ang_quat = transforms3d.euler.euler2quat(0.0, 0.0, F_total_ang)
+            self.rob_pose.pose.orientation.w = ang_quat[0]
+            self.rob_pose.pose.orientation.x = ang_quat[1]
+            self.rob_pose.pose.orientation.y = ang_quat[2]
+            self.rob_pose.pose.orientation.z = ang_quat[3]
 
             # print ("click_x:",self.click_x)
             # print ("click_y:",self.click_y)

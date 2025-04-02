@@ -1,5 +1,0 @@
-  File "/home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap/potMap_node.py", line 119
-    self.Fx_rep + self.Fy_rep = self.Fx_rep + self.Fy_rep + (1/self.ranges[i])**2 * np.cos(deg)
-    ^^^^^^^^^^^^^^^^^^^^^^^^^
-SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
-

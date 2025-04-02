@@ -1,2 +1,1 @@
-source;share/signal_generator/environment/ament_prefix_path.sh
-source;share/signal_generator/environment/path.sh
+/home/israamaciaas/ros2_ws/build/signal_generator/ament_cmake_environment_hooks/local_setup.dsv

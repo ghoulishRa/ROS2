@@ -1,0 +1,24 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating potMap.egg-info
+writing potMap.egg-info/PKG-INFO
+writing dependency_links to potMap.egg-info/dependency_links.txt
+writing entry points to potMap.egg-info/entry_points.txt
+writing requirements to potMap.egg-info/requires.txt
+writing top-level names to potMap.egg-info/top_level.txt
+writing manifest file 'potMap.egg-info/SOURCES.txt'
+reading manifest file 'potMap.egg-info/SOURCES.txt'
+writing manifest file 'potMap.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap.egg-link (link to .)
+Installing potMap_node script to /home/israamaciaas/ros2_ws/install/potMap/lib/potMap
+
+Installed /home/israamaciaas/ros2_ws/build/potMap
+running symlink_data
+creating /home/israamaciaas/ros2_ws/install/potMap/share/ament_index
+creating /home/israamaciaas/ros2_ws/install/potMap/share/ament_index/resource_index
+creating /home/israamaciaas/ros2_ws/install/potMap/share/ament_index/resource_index/packages
+symbolically linking /home/israamaciaas/ros2_ws/build/potMap/resource/potMap -> /home/israamaciaas/ros2_ws/install/potMap/share/ament_index/resource_index/packages
+symbolically linking /home/israamaciaas/ros2_ws/build/potMap/package.xml -> /home/israamaciaas/ros2_ws/install/potMap/share/potMap
