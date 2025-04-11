@@ -1,0 +1,31 @@
+[1.634s] Invoking command in '/home/israamaciaas/ros2_ws/src/puzzlebot_sim': PYTHONPATH=/home/israamaciaas/ros2_ws/build/puzzlebot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_sim build --build-base /home/israamaciaas/ros2_ws/build/puzzlebot_sim/build install --record /home/israamaciaas/ros2_ws/build/puzzlebot_sim/install.log --single-version-externally-managed install_data
+[2.021s] running egg_info
+[2.022s] writing ../../build/puzzlebot_sim/puzzlebot_sim.egg-info/PKG-INFO
+[2.029s] writing dependency_links to ../../build/puzzlebot_sim/puzzlebot_sim.egg-info/dependency_links.txt
+[2.029s] writing entry points to ../../build/puzzlebot_sim/puzzlebot_sim.egg-info/entry_points.txt
+[2.029s] writing requirements to ../../build/puzzlebot_sim/puzzlebot_sim.egg-info/requires.txt
+[2.030s] writing top-level names to ../../build/puzzlebot_sim/puzzlebot_sim.egg-info/top_level.txt
+[2.034s] reading manifest file '../../build/puzzlebot_sim/puzzlebot_sim.egg-info/SOURCES.txt'
+[2.036s] writing manifest file '../../build/puzzlebot_sim/puzzlebot_sim.egg-info/SOURCES.txt'
+[2.036s] running build
+[2.036s] running build_py
+[2.039s] copying puzzlebot_sim/joint_pub.py -> /home/israamaciaas/ros2_ws/build/puzzlebot_sim/build/lib/puzzlebot_sim
+[2.040s] running install
+[2.040s] running install_lib
+[2.041s] copying /home/israamaciaas/ros2_ws/build/puzzlebot_sim/build/lib/puzzlebot_sim/joint_pub.py -> /home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages/puzzlebot_sim
+[2.043s] byte-compiling /home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages/puzzlebot_sim/joint_pub.py to joint_pub.cpython-310.pyc
+[2.043s] running install_data
+[2.044s] copying meshes/MCR2_puzzlebot_base.stl -> /home/israamaciaas/ros2_ws/install/puzzlebot_sim/share/puzzlebot_sim/meshes
+[2.044s] copying meshes/MCR2_wheel.stl -> /home/israamaciaas/ros2_ws/install/puzzlebot_sim/share/puzzlebot_sim/meshes
+[2.045s] copying meshes/MCR2_puzzlebot_jetson_base.stl -> /home/israamaciaas/ros2_ws/install/puzzlebot_sim/share/puzzlebot_sim/meshes
+[2.046s] copying meshes/MCR2_puzzlebot_jetson_lidar_base.stl -> /home/israamaciaas/ros2_ws/install/puzzlebot_sim/share/puzzlebot_sim/meshes
+[2.048s] copying meshes/MCR2_caster_wheel.stl -> /home/israamaciaas/ros2_ws/install/puzzlebot_sim/share/puzzlebot_sim/meshes
+[2.048s] copying urdf/puzzlebot.urdf -> /home/israamaciaas/ros2_ws/install/puzzlebot_sim/share/puzzlebot_sim/urdf
+[2.048s] running install_egg_info
+[2.052s] removing '/home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages/puzzlebot_sim-0.0.0-py3.10.egg-info' (and everything under it)
+[2.052s] Copying ../../build/puzzlebot_sim/puzzlebot_sim.egg-info to /home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages/puzzlebot_sim-0.0.0-py3.10.egg-info
+[2.054s] running install_scripts
+[2.083s] Installing joint_pub script to /home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/puzzlebot_sim
+[2.083s] Installing puzzlebot_sim_node script to /home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/puzzlebot_sim
+[2.084s] writing list of installed files to '/home/israamaciaas/ros2_ws/build/puzzlebot_sim/install.log'
+[2.131s] Invoked command in '/home/israamaciaas/ros2_ws/src/puzzlebot_sim' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/puzzlebot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_sim build --build-base /home/israamaciaas/ros2_ws/build/puzzlebot_sim/build install --record /home/israamaciaas/ros2_ws/build/puzzlebot_sim/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+[1.232s] Invoking command in '/home/israamaciaas/ros2_ws/src/puzzlebot_sim': PYTHONPATH=/home/israamaciaas/ros2_ws/build/puzzlebot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_sim build --build-base /home/israamaciaas/ros2_ws/build/puzzlebot_sim/build install --record /home/israamaciaas/ros2_ws/build/puzzlebot_sim/install.log --single-version-externally-managed install_data
+[1.575s] running egg_info
+[1.575s] writing ../../build/puzzlebot_sim/puzzlebot_sim.egg-info/PKG-INFO
+[1.576s] writing dependency_links to ../../build/puzzlebot_sim/puzzlebot_sim.egg-info/dependency_links.txt
+[1.576s] writing entry points to ../../build/puzzlebot_sim/puzzlebot_sim.egg-info/entry_points.txt
+[1.576s] writing requirements to ../../build/puzzlebot_sim/puzzlebot_sim.egg-info/requires.txt
+[1.577s] writing top-level names to ../../build/puzzlebot_sim/puzzlebot_sim.egg-info/top_level.txt
+[1.579s] reading manifest file '../../build/puzzlebot_sim/puzzlebot_sim.egg-info/SOURCES.txt'
+[1.581s] writing manifest file '../../build/puzzlebot_sim/puzzlebot_sim.egg-info/SOURCES.txt'
+[1.581s] running build
+[1.581s] running build_py
+[1.582s] running install
+[1.582s] running install_lib
+[1.584s] running install_data
+[1.585s] copying urdf/puzzlebot.urdf -> /home/israamaciaas/ros2_ws/install/puzzlebot_sim/share/puzzlebot_sim/urdf
+[1.585s] running install_egg_info
+[1.587s] removing '/home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages/puzzlebot_sim-0.0.0-py3.10.egg-info' (and everything under it)
+[1.588s] Copying ../../build/puzzlebot_sim/puzzlebot_sim.egg-info to /home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages/puzzlebot_sim-0.0.0-py3.10.egg-info
+[1.589s] running install_scripts
+[1.616s] Installing puzzlebot_sim_node script to /home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/puzzlebot_sim
+[1.617s] writing list of installed files to '/home/israamaciaas/ros2_ws/build/puzzlebot_sim/install.log'
+[1.659s] Invoked command in '/home/israamaciaas/ros2_ws/src/puzzlebot_sim' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/puzzlebot_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_sim build --build-base /home/israamaciaas/ros2_ws/build/puzzlebot_sim/build install --record /home/israamaciaas/ros2_ws/build/puzzlebot_sim/install.log --single-version-externally-managed install_data

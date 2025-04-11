@@ -1,0 +1,4 @@
+[console_scripts]
+joint_pub = puzzlebot_sim.joint_pub:main
+puzzlebot_sim_node = puzzlebot_sim.puzzlebot_sim_node:main
+

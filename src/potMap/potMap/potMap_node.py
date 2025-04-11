@@ -118,7 +118,7 @@ class PotentialMap(Node):
                 local_Fx_rep = (1 / self.ranges[i]) * np.cos(deg)
                 local_Fy_rep = (1 / self.ranges[i]) * np.sin(deg)
 
-                # Rotate to global frame using robot orientation
+                #2d rotation matrix for frames convertion
                 global_Fx_rep = local_Fx_rep * np.cos(self.theta_rob) - local_Fy_rep * np.sin(self.theta_rob)
                 global_Fy_rep = local_Fx_rep * np.sin(self.theta_rob) + local_Fy_rep * np.cos(self.theta_rob)
 
@@ -139,7 +139,7 @@ class PotentialMap(Node):
 
             self.d_goal = np.sqrt(dx**2 + dy**2)
 
-            Fx_total = Fx_att +(self.k_rep*self.Fx_rep)
+            Fx_total = Fx_att + (self.k_rep*self.Fx_rep)
             Fy_total = Fy_att + (self.k_rep*self.Fy_rep)
 
             F_total_ang = (np.arctan2(Fy_total,Fx_total) + np.pi) - self.theta_rob
@@ -161,6 +161,7 @@ class PotentialMap(Node):
 
         print("counter: ", self.counter)
         print("Battery life: ",self.Battery_life - self.time_counter )
+
         if self.d_goal < 0.1:
             self.counter = (self.counter + 1) % len(self.waypoints) 
             self.click_x = self.waypoints[self.counter][0]
@@ -174,7 +175,7 @@ class PotentialMap(Node):
                 self.returning_to_start = True  
                 
             print("Low Battery")
-            print("Reaching out my way home!")
+            print("Reaching out on my way home!")
             self.click_x = self.waypoints[3][0]
             self.click_y = self.waypoints[3][1]
 
