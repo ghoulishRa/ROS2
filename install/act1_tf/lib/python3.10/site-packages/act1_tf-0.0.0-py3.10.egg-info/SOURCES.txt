@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/act1_tf/act1_tf.egg-info/PKG-INFO
+../../../build/act1_tf/act1_tf.egg-info/SOURCES.txt
+../../../build/act1_tf/act1_tf.egg-info/dependency_links.txt
+../../../build/act1_tf/act1_tf.egg-info/entry_points.txt
+../../../build/act1_tf/act1_tf.egg-info/requires.txt
+../../../build/act1_tf/act1_tf.egg-info/top_level.txt
+../../../build/act1_tf/act1_tf.egg-info/zip-safe
+act1_tf/__init__.py
+act1_tf/act1_tf_node.py
+resource/act1_tf
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

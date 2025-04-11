@@ -1,0 +1,4 @@
+[console_scripts]
+joint_pub = act2_tf.joint_pub:main
+puzzlebot = act2_tf.puzzlebot:main
+
