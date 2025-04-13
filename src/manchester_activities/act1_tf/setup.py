@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'act1_tf_node=act1_tf.act1_tf_node:main'
         ],
     },
 )

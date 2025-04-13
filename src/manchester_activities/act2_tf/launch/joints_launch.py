@@ -50,7 +50,7 @@ def generate_launch_description():
         executable='rviz2',
         name='rviz2',
         arguments=['-d', os.path.join(
-        get_package_share_directory('puzzlebot_sim'), 'rviz', 'puzzlebot.rviz')],
+        get_package_share_directory('act2_tf'), 'rviz', 'puzzlebot.rviz')],
         output='screen'
     )
     
