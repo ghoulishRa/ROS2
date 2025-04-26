@@ -1,0 +1,43 @@
+[2.929s] Invoking command in '/home/israamaciaas/ros2_ws/src/hybrid_project/a_star_robot': PYTHONPATH=/home/israamaciaas/ros2_ws/build/a_star_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/a_star_robot build --build-base /home/israamaciaas/ros2_ws/build/a_star_robot/build install --record /home/israamaciaas/ros2_ws/build/a_star_robot/install.log --single-version-externally-managed install_data
+[3.392s] running egg_info
+[3.394s] creating ../../../build/a_star_robot/a_star_robot.egg-info
+[3.394s] writing ../../../build/a_star_robot/a_star_robot.egg-info/PKG-INFO
+[3.396s] writing dependency_links to ../../../build/a_star_robot/a_star_robot.egg-info/dependency_links.txt
+[3.397s] writing entry points to ../../../build/a_star_robot/a_star_robot.egg-info/entry_points.txt
+[3.397s] writing requirements to ../../../build/a_star_robot/a_star_robot.egg-info/requires.txt
+[3.397s] writing top-level names to ../../../build/a_star_robot/a_star_robot.egg-info/top_level.txt
+[3.397s] writing manifest file '../../../build/a_star_robot/a_star_robot.egg-info/SOURCES.txt'
+[3.399s] reading manifest file '../../../build/a_star_robot/a_star_robot.egg-info/SOURCES.txt'
+[3.401s] writing manifest file '../../../build/a_star_robot/a_star_robot.egg-info/SOURCES.txt'
+[3.401s] running build
+[3.401s] running build_py
+[3.401s] creating /home/israamaciaas/ros2_ws/build/a_star_robot/build
+[3.401s] creating /home/israamaciaas/ros2_ws/build/a_star_robot/build/lib
+[3.401s] creating /home/israamaciaas/ros2_ws/build/a_star_robot/build/lib/a_star_robot
+[3.402s] copying a_star_robot/__init__.py -> /home/israamaciaas/ros2_ws/build/a_star_robot/build/lib/a_star_robot
+[3.403s] copying a_star_robot/trajectory_controller.py -> /home/israamaciaas/ros2_ws/build/a_star_robot/build/lib/a_star_robot
+[3.403s] copying a_star_robot/a_star_planner.py -> /home/israamaciaas/ros2_ws/build/a_star_robot/build/lib/a_star_robot
+[3.403s] running install
+[3.404s] running install_lib
+[3.405s] creating /home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages/a_star_robot
+[3.405s] copying /home/israamaciaas/ros2_ws/build/a_star_robot/build/lib/a_star_robot/__init__.py -> /home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages/a_star_robot
+[3.405s] copying /home/israamaciaas/ros2_ws/build/a_star_robot/build/lib/a_star_robot/trajectory_controller.py -> /home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages/a_star_robot
+[3.405s] copying /home/israamaciaas/ros2_ws/build/a_star_robot/build/lib/a_star_robot/a_star_planner.py -> /home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages/a_star_robot
+[3.406s] byte-compiling /home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages/a_star_robot/__init__.py to __init__.cpython-310.pyc
+[3.407s] byte-compiling /home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages/a_star_robot/trajectory_controller.py to trajectory_controller.cpython-310.pyc
+[3.414s] byte-compiling /home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages/a_star_robot/a_star_planner.py to a_star_planner.cpython-310.pyc
+[3.414s] running install_data
+[3.414s] creating /home/israamaciaas/ros2_ws/install/a_star_robot/share/ament_index
+[3.414s] creating /home/israamaciaas/ros2_ws/install/a_star_robot/share/ament_index/resource_index
+[3.414s] creating /home/israamaciaas/ros2_ws/install/a_star_robot/share/ament_index/resource_index/packages
+[3.414s] copying resource/a_star_robot -> /home/israamaciaas/ros2_ws/install/a_star_robot/share/ament_index/resource_index/packages
+[3.414s] copying package.xml -> /home/israamaciaas/ros2_ws/install/a_star_robot/share/a_star_robot
+[3.414s] creating /home/israamaciaas/ros2_ws/install/a_star_robot/share/a_star_robot/launch
+[3.414s] copying launch/map_launch.py -> /home/israamaciaas/ros2_ws/install/a_star_robot/share/a_star_robot/launch
+[3.414s] running install_egg_info
+[3.415s] Copying ../../../build/a_star_robot/a_star_robot.egg-info to /home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages/a_star_robot-0.0.0-py3.10.egg-info
+[3.417s] running install_scripts
+[3.455s] Installing a_star_planner script to /home/israamaciaas/ros2_ws/install/a_star_robot/lib/a_star_robot
+[3.456s] Installing trajectory_controller script to /home/israamaciaas/ros2_ws/install/a_star_robot/lib/a_star_robot
+[3.456s] writing list of installed files to '/home/israamaciaas/ros2_ws/build/a_star_robot/install.log'
+[3.543s] Invoked command in '/home/israamaciaas/ros2_ws/src/hybrid_project/a_star_robot' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/a_star_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/a_star_robot build --build-base /home/israamaciaas/ros2_ws/build/a_star_robot/build install --record /home/israamaciaas/ros2_ws/build/a_star_robot/install.log --single-version-externally-managed install_data

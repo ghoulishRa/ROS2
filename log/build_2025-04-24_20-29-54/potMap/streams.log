@@ -1,0 +1,37 @@
+[2.837s] Invoking command in '/home/israamaciaas/ros2_ws/src/potMap': PYTHONPATH=/home/israamaciaas/ros2_ws/build/potMap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/potMap build --build-base /home/israamaciaas/ros2_ws/build/potMap/build install --record /home/israamaciaas/ros2_ws/build/potMap/install.log --single-version-externally-managed install_data
+[3.415s] running egg_info
+[3.417s] creating ../../build/potMap/potMap.egg-info
+[3.432s] writing ../../build/potMap/potMap.egg-info/PKG-INFO
+[3.432s] writing dependency_links to ../../build/potMap/potMap.egg-info/dependency_links.txt
+[3.432s] writing entry points to ../../build/potMap/potMap.egg-info/entry_points.txt
+[3.432s] writing requirements to ../../build/potMap/potMap.egg-info/requires.txt
+[3.432s] writing top-level names to ../../build/potMap/potMap.egg-info/top_level.txt
+[3.432s] writing manifest file '../../build/potMap/potMap.egg-info/SOURCES.txt'
+[3.433s] reading manifest file '../../build/potMap/potMap.egg-info/SOURCES.txt'
+[3.433s] writing manifest file '../../build/potMap/potMap.egg-info/SOURCES.txt'
+[3.433s] running build
+[3.433s] running build_py
+[3.433s] creating /home/israamaciaas/ros2_ws/build/potMap/build
+[3.433s] creating /home/israamaciaas/ros2_ws/build/potMap/build/lib
+[3.433s] creating /home/israamaciaas/ros2_ws/build/potMap/build/lib/potMap
+[3.433s] copying potMap/__init__.py -> /home/israamaciaas/ros2_ws/build/potMap/build/lib/potMap
+[3.433s] copying potMap/potMap_node.py -> /home/israamaciaas/ros2_ws/build/potMap/build/lib/potMap
+[3.433s] running install
+[3.433s] running install_lib
+[3.433s] creating /home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap
+[3.437s] copying /home/israamaciaas/ros2_ws/build/potMap/build/lib/potMap/__init__.py -> /home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap
+[3.438s] copying /home/israamaciaas/ros2_ws/build/potMap/build/lib/potMap/potMap_node.py -> /home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap
+[3.438s] byte-compiling /home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap/__init__.py to __init__.cpython-310.pyc
+[3.438s] byte-compiling /home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap/potMap_node.py to potMap_node.cpython-310.pyc
+[3.441s] running install_data
+[3.441s] creating /home/israamaciaas/ros2_ws/install/potMap/share/ament_index
+[3.441s] creating /home/israamaciaas/ros2_ws/install/potMap/share/ament_index/resource_index
+[3.441s] creating /home/israamaciaas/ros2_ws/install/potMap/share/ament_index/resource_index/packages
+[3.441s] copying resource/potMap -> /home/israamaciaas/ros2_ws/install/potMap/share/ament_index/resource_index/packages
+[3.441s] copying package.xml -> /home/israamaciaas/ros2_ws/install/potMap/share/potMap
+[3.441s] running install_egg_info
+[3.443s] Copying ../../build/potMap/potMap.egg-info to /home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages/potMap-0.0.0-py3.10.egg-info
+[3.445s] running install_scripts
+[3.496s] Installing potMap_node script to /home/israamaciaas/ros2_ws/install/potMap/lib/potMap
+[3.496s] writing list of installed files to '/home/israamaciaas/ros2_ws/build/potMap/install.log'
+[3.565s] Invoked command in '/home/israamaciaas/ros2_ws/src/potMap' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/potMap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/potMap build --build-base /home/israamaciaas/ros2_ws/build/potMap/build install --record /home/israamaciaas/ros2_ws/build/potMap/install.log --single-version-externally-managed install_data

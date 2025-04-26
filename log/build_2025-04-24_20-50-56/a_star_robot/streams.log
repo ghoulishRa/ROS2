@@ -1,0 +1,23 @@
+[0.842s] Invoking command in '/home/israamaciaas/ros2_ws/src/hybrid_project/a_star_robot': PYTHONPATH=/home/israamaciaas/ros2_ws/build/a_star_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/a_star_robot build --build-base /home/israamaciaas/ros2_ws/build/a_star_robot/build install --record /home/israamaciaas/ros2_ws/build/a_star_robot/install.log --single-version-externally-managed install_data
+[1.075s] running egg_info
+[1.075s] writing ../../../build/a_star_robot/a_star_robot.egg-info/PKG-INFO
+[1.076s] writing dependency_links to ../../../build/a_star_robot/a_star_robot.egg-info/dependency_links.txt
+[1.076s] writing entry points to ../../../build/a_star_robot/a_star_robot.egg-info/entry_points.txt
+[1.076s] writing requirements to ../../../build/a_star_robot/a_star_robot.egg-info/requires.txt
+[1.076s] writing top-level names to ../../../build/a_star_robot/a_star_robot.egg-info/top_level.txt
+[1.078s] reading manifest file '../../../build/a_star_robot/a_star_robot.egg-info/SOURCES.txt'
+[1.079s] writing manifest file '../../../build/a_star_robot/a_star_robot.egg-info/SOURCES.txt'
+[1.079s] running build
+[1.079s] running build_py
+[1.079s] running install
+[1.079s] running install_lib
+[1.081s] running install_data
+[1.081s] copying launch/map_launch.py -> /home/israamaciaas/ros2_ws/install/a_star_robot/share/a_star_robot/launch
+[1.081s] running install_egg_info
+[1.083s] removing '/home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages/a_star_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.083s] Copying ../../../build/a_star_robot/a_star_robot.egg-info to /home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages/a_star_robot-0.0.0-py3.10.egg-info
+[1.084s] running install_scripts
+[1.103s] Installing a_star_planner script to /home/israamaciaas/ros2_ws/install/a_star_robot/lib/a_star_robot
+[1.104s] Installing trajectory_controller script to /home/israamaciaas/ros2_ws/install/a_star_robot/lib/a_star_robot
+[1.104s] writing list of installed files to '/home/israamaciaas/ros2_ws/build/a_star_robot/install.log'
+[1.141s] Invoked command in '/home/israamaciaas/ros2_ws/src/hybrid_project/a_star_robot' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/a_star_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/a_star_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/a_star_robot build --build-base /home/israamaciaas/ros2_ws/build/a_star_robot/build install --record /home/israamaciaas/ros2_ws/build/a_star_robot/install.log --single-version-externally-managed install_data

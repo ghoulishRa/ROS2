@@ -1,0 +1,70 @@
+[2.756s] Invoking command in '/home/israamaciaas/ros2_ws/src/hybrid_project/multidim_rrt_planner': PYTHONPATH=/home/israamaciaas/ros2_ws/build/multidim_rrt_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/multidim_rrt_planner build --build-base /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build install --record /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/install.log --single-version-externally-managed install_data
+[3.253s] running egg_info
+[3.253s] creating ../../../build/multidim_rrt_planner/multidim_rrt_planner.egg-info
+[3.253s] writing ../../../build/multidim_rrt_planner/multidim_rrt_planner.egg-info/PKG-INFO
+[3.253s] writing dependency_links to ../../../build/multidim_rrt_planner/multidim_rrt_planner.egg-info/dependency_links.txt
+[3.254s] writing entry points to ../../../build/multidim_rrt_planner/multidim_rrt_planner.egg-info/entry_points.txt
+[3.254s] writing requirements to ../../../build/multidim_rrt_planner/multidim_rrt_planner.egg-info/requires.txt
+[3.254s] writing top-level names to ../../../build/multidim_rrt_planner/multidim_rrt_planner.egg-info/top_level.txt
+[3.254s] writing manifest file '../../../build/multidim_rrt_planner/multidim_rrt_planner.egg-info/SOURCES.txt'
+[3.257s] reading manifest file '../../../build/multidim_rrt_planner/multidim_rrt_planner.egg-info/SOURCES.txt'
+[3.258s] adding license file 'LICENSE'
+[3.258s] writing manifest file '../../../build/multidim_rrt_planner/multidim_rrt_planner.egg-info/SOURCES.txt'
+[3.258s] running build
+[3.258s] running build_py
+[3.259s] creating /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build
+[3.262s] creating /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib
+[3.262s] creating /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner
+[3.262s] copying multidim_rrt_planner/rrt2D.py -> /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner
+[3.263s] copying multidim_rrt_planner/map_frame_pub.py -> /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner
+[3.263s] copying multidim_rrt_planner/__init__.py -> /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner
+[3.263s] copying multidim_rrt_planner/obstacle_pub_2D.py -> /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner
+[3.264s] copying multidim_rrt_planner/rrt3D.py -> /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner
+[3.271s] copying multidim_rrt_planner/Marker.py -> /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner
+[3.271s] copying multidim_rrt_planner/occupancy_pub.py -> /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner
+[3.271s] copying multidim_rrt_planner/TreeNode.py -> /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner
+[3.271s] copying multidim_rrt_planner/obstacle_pub_3D.py -> /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner
+[3.271s] running install
+[3.271s] running install_lib
+[3.272s] creating /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner
+[3.272s] copying /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner/rrt2D.py -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner
+[3.272s] copying /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner/map_frame_pub.py -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner
+[3.272s] copying /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner/__init__.py -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner
+[3.273s] copying /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner/obstacle_pub_2D.py -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner
+[3.273s] copying /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner/rrt3D.py -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner
+[3.273s] copying /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner/Marker.py -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner
+[3.274s] copying /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner/occupancy_pub.py -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner
+[3.274s] copying /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner/TreeNode.py -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner
+[3.275s] copying /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build/lib/multidim_rrt_planner/obstacle_pub_3D.py -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner
+[3.276s] byte-compiling /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner/rrt2D.py to rrt2D.cpython-310.pyc
+[3.281s] byte-compiling /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner/map_frame_pub.py to map_frame_pub.cpython-310.pyc
+[3.282s] byte-compiling /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner/__init__.py to __init__.cpython-310.pyc
+[3.282s] byte-compiling /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner/obstacle_pub_2D.py to obstacle_pub_2D.cpython-310.pyc
+[3.284s] byte-compiling /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner/rrt3D.py to rrt3D.cpython-310.pyc
+[3.286s] byte-compiling /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner/Marker.py to Marker.cpython-310.pyc
+[3.287s] byte-compiling /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner/occupancy_pub.py to occupancy_pub.cpython-310.pyc
+[3.290s] byte-compiling /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner/TreeNode.py to TreeNode.cpython-310.pyc
+[3.293s] byte-compiling /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner/obstacle_pub_3D.py to obstacle_pub_3D.cpython-310.pyc
+[3.294s] running install_data
+[3.294s] creating /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/ament_index
+[3.294s] creating /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/ament_index/resource_index
+[3.294s] creating /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/ament_index/resource_index/packages
+[3.294s] copying resource/multidim_rrt_planner -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/ament_index/resource_index/packages
+[3.295s] copying package.xml -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner
+[3.295s] creating /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/launch
+[3.295s] copying launch/rrt2Dlaunch.xml -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/launch
+[3.295s] copying launch/rrt3Dlaunch.xml -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/launch
+[3.296s] creating /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/config
+[3.296s] copying config/rrt2Dconfig.rviz -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/config
+[3.296s] copying config/rrt3Dconfig.rviz -> /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/config
+[3.296s] running install_egg_info
+[3.303s] Copying ../../../build/multidim_rrt_planner/multidim_rrt_planner.egg-info to /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages/multidim_rrt_planner-0.0.7-py3.10.egg-info
+[3.303s] running install_scripts
+[3.357s] Installing map_frame_pub script to /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/multidim_rrt_planner
+[3.357s] Installing obstacle_pub_2D script to /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/multidim_rrt_planner
+[3.357s] Installing obstacle_pub_3D script to /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/multidim_rrt_planner
+[3.357s] Installing occupancy_pub script to /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/multidim_rrt_planner
+[3.358s] Installing rrt2D script to /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/multidim_rrt_planner
+[3.358s] Installing rrt3D script to /home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/multidim_rrt_planner
+[3.358s] writing list of installed files to '/home/israamaciaas/ros2_ws/build/multidim_rrt_planner/install.log'
+[3.497s] Invoked command in '/home/israamaciaas/ros2_ws/src/hybrid_project/multidim_rrt_planner' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/multidim_rrt_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/multidim_rrt_planner build --build-base /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build install --record /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/install.log --single-version-externally-managed install_data

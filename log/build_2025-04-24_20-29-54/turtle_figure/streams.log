@@ -1,0 +1,39 @@
+[2.739s] Invoking command in '/home/israamaciaas/ros2_ws/src/turtle_figure': PYTHONPATH=/home/israamaciaas/ros2_ws/build/turtle_figure/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/turtle_figure/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_figure build --build-base /home/israamaciaas/ros2_ws/build/turtle_figure/build install --record /home/israamaciaas/ros2_ws/build/turtle_figure/install.log --single-version-externally-managed install_data
+[3.241s] running egg_info
+[3.246s] creating ../../build/turtle_figure/turtle_figure.egg-info
+[3.246s] writing ../../build/turtle_figure/turtle_figure.egg-info/PKG-INFO
+[3.246s] writing dependency_links to ../../build/turtle_figure/turtle_figure.egg-info/dependency_links.txt
+[3.247s] writing entry points to ../../build/turtle_figure/turtle_figure.egg-info/entry_points.txt
+[3.247s] writing requirements to ../../build/turtle_figure/turtle_figure.egg-info/requires.txt
+[3.247s] writing top-level names to ../../build/turtle_figure/turtle_figure.egg-info/top_level.txt
+[3.247s] writing manifest file '../../build/turtle_figure/turtle_figure.egg-info/SOURCES.txt'
+[3.252s] reading manifest file '../../build/turtle_figure/turtle_figure.egg-info/SOURCES.txt'
+[3.253s] writing manifest file '../../build/turtle_figure/turtle_figure.egg-info/SOURCES.txt'
+[3.254s] running build
+[3.254s] running build_py
+[3.258s] creating /home/israamaciaas/ros2_ws/build/turtle_figure/build
+[3.259s] creating /home/israamaciaas/ros2_ws/build/turtle_figure/build/lib
+[3.259s] creating /home/israamaciaas/ros2_ws/build/turtle_figure/build/lib/turtle_figure
+[3.259s] copying turtle_figure/turtleFigureNode.py -> /home/israamaciaas/ros2_ws/build/turtle_figure/build/lib/turtle_figure
+[3.259s] copying turtle_figure/__init__.py -> /home/israamaciaas/ros2_ws/build/turtle_figure/build/lib/turtle_figure
+[3.259s] running install
+[3.260s] running install_lib
+[3.261s] creating /home/israamaciaas/ros2_ws/install/turtle_figure/lib/python3.10/site-packages/turtle_figure
+[3.261s] copying /home/israamaciaas/ros2_ws/build/turtle_figure/build/lib/turtle_figure/turtleFigureNode.py -> /home/israamaciaas/ros2_ws/install/turtle_figure/lib/python3.10/site-packages/turtle_figure
+[3.261s] copying /home/israamaciaas/ros2_ws/build/turtle_figure/build/lib/turtle_figure/__init__.py -> /home/israamaciaas/ros2_ws/install/turtle_figure/lib/python3.10/site-packages/turtle_figure
+[3.264s] byte-compiling /home/israamaciaas/ros2_ws/install/turtle_figure/lib/python3.10/site-packages/turtle_figure/turtleFigureNode.py to turtleFigureNode.cpython-310.pyc
+[3.264s] byte-compiling /home/israamaciaas/ros2_ws/install/turtle_figure/lib/python3.10/site-packages/turtle_figure/__init__.py to __init__.cpython-310.pyc
+[3.265s] running install_data
+[3.265s] creating /home/israamaciaas/ros2_ws/install/turtle_figure/share/ament_index
+[3.265s] creating /home/israamaciaas/ros2_ws/install/turtle_figure/share/ament_index/resource_index
+[3.265s] creating /home/israamaciaas/ros2_ws/install/turtle_figure/share/ament_index/resource_index/packages
+[3.267s] copying resource/turtle_figure -> /home/israamaciaas/ros2_ws/install/turtle_figure/share/ament_index/resource_index/packages
+[3.267s] copying package.xml -> /home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure
+[3.267s] creating /home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/launch
+[3.268s] copying launch/launch.py -> /home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/launch
+[3.268s] running install_egg_info
+[3.270s] Copying ../../build/turtle_figure/turtle_figure.egg-info to /home/israamaciaas/ros2_ws/install/turtle_figure/lib/python3.10/site-packages/turtle_figure-0.0.0-py3.10.egg-info
+[3.271s] running install_scripts
+[3.319s] Installing turtleFigureNode script to /home/israamaciaas/ros2_ws/install/turtle_figure/lib/turtle_figure
+[3.321s] writing list of installed files to '/home/israamaciaas/ros2_ws/build/turtle_figure/install.log'
+[3.441s] Invoked command in '/home/israamaciaas/ros2_ws/src/turtle_figure' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/turtle_figure/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/turtle_figure/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_figure build --build-base /home/israamaciaas/ros2_ws/build/turtle_figure/build install --record /home/israamaciaas/ros2_ws/build/turtle_figure/install.log --single-version-externally-managed install_data

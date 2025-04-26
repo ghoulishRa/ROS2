@@ -1,0 +1,4 @@
+[console_scripts]
+a_star_planner = a_star_robot.a_star_planner:main
+trajectory_controller = a_star_robot.trajectory_controller:main
+

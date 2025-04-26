@@ -10,7 +10,6 @@ setup.py
 ../../../build/act2_tf/act2_tf.egg-info/zip-safe
 act2_tf/__init__.py
 act2_tf/joint_pub.py
-act2_tf/puzzlebot.py
 launch/joints_launch.py
 meshes/MCR2_caster_wheel.stl
 meshes/MCR2_puzzlebot_base.stl

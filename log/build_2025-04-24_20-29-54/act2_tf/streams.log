@@ -1,0 +1,50 @@
+[2.741s] Invoking command in '/home/israamaciaas/ros2_ws/src/manchester_activities/act2_tf': PYTHONPATH=/home/israamaciaas/ros2_ws/build/act2_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/act2_tf build --build-base /home/israamaciaas/ros2_ws/build/act2_tf/build install --record /home/israamaciaas/ros2_ws/build/act2_tf/install.log --single-version-externally-managed install_data
+[3.228s] running egg_info
+[3.231s] creating ../../../build/act2_tf/act2_tf.egg-info
+[3.231s] writing ../../../build/act2_tf/act2_tf.egg-info/PKG-INFO
+[3.234s] writing dependency_links to ../../../build/act2_tf/act2_tf.egg-info/dependency_links.txt
+[3.235s] writing entry points to ../../../build/act2_tf/act2_tf.egg-info/entry_points.txt
+[3.235s] writing requirements to ../../../build/act2_tf/act2_tf.egg-info/requires.txt
+[3.235s] writing top-level names to ../../../build/act2_tf/act2_tf.egg-info/top_level.txt
+[3.235s] writing manifest file '../../../build/act2_tf/act2_tf.egg-info/SOURCES.txt'
+[3.237s] reading manifest file '../../../build/act2_tf/act2_tf.egg-info/SOURCES.txt'
+[3.239s] writing manifest file '../../../build/act2_tf/act2_tf.egg-info/SOURCES.txt'
+[3.241s] running build
+[3.241s] running build_py
+[3.241s] creating /home/israamaciaas/ros2_ws/build/act2_tf/build
+[3.241s] creating /home/israamaciaas/ros2_ws/build/act2_tf/build/lib
+[3.241s] creating /home/israamaciaas/ros2_ws/build/act2_tf/build/lib/act2_tf
+[3.241s] copying act2_tf/joint_pub.py -> /home/israamaciaas/ros2_ws/build/act2_tf/build/lib/act2_tf
+[3.245s] copying act2_tf/__init__.py -> /home/israamaciaas/ros2_ws/build/act2_tf/build/lib/act2_tf
+[3.245s] running install
+[3.245s] running install_lib
+[3.246s] creating /home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages/act2_tf
+[3.246s] copying /home/israamaciaas/ros2_ws/build/act2_tf/build/lib/act2_tf/joint_pub.py -> /home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages/act2_tf
+[3.246s] copying /home/israamaciaas/ros2_ws/build/act2_tf/build/lib/act2_tf/__init__.py -> /home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages/act2_tf
+[3.246s] byte-compiling /home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages/act2_tf/joint_pub.py to joint_pub.cpython-310.pyc
+[3.248s] byte-compiling /home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages/act2_tf/__init__.py to __init__.cpython-310.pyc
+[3.249s] running install_data
+[3.249s] creating /home/israamaciaas/ros2_ws/install/act2_tf/share/ament_index
+[3.250s] creating /home/israamaciaas/ros2_ws/install/act2_tf/share/ament_index/resource_index
+[3.250s] creating /home/israamaciaas/ros2_ws/install/act2_tf/share/ament_index/resource_index/packages
+[3.250s] copying resource/act2_tf -> /home/israamaciaas/ros2_ws/install/act2_tf/share/ament_index/resource_index/packages
+[3.250s] copying package.xml -> /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf
+[3.250s] creating /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/launch
+[3.250s] copying launch/joints_launch.py -> /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/launch
+[3.257s] creating /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/config
+[3.257s] creating /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/rviz
+[3.258s] creating /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/meshes
+[3.258s] copying meshes/MCR2_puzzlebot_base.stl -> /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/meshes
+[3.258s] copying meshes/MCR2_wheel.stl -> /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/meshes
+[3.258s] copying meshes/MCR2_puzzlebot_jetson_base.stl -> /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/meshes
+[3.258s] copying meshes/MCR2_puzzlebot_jetson_lidar_base.stl -> /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/meshes
+[3.258s] copying meshes/MCR2_caster_wheel.stl -> /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/meshes
+[3.259s] creating /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/urdf
+[3.261s] copying urdf/puzzlebot.urdf -> /home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/urdf
+[3.261s] running install_egg_info
+[3.262s] Copying ../../../build/act2_tf/act2_tf.egg-info to /home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages/act2_tf-0.0.0-py3.10.egg-info
+[3.266s] running install_scripts
+[3.308s] Installing joint_pub script to /home/israamaciaas/ros2_ws/install/act2_tf/lib/act2_tf
+[3.310s] Installing puzzlebot script to /home/israamaciaas/ros2_ws/install/act2_tf/lib/act2_tf
+[3.311s] writing list of installed files to '/home/israamaciaas/ros2_ws/build/act2_tf/install.log'
+[3.425s] Invoked command in '/home/israamaciaas/ros2_ws/src/manchester_activities/act2_tf' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/act2_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/act2_tf build --build-base /home/israamaciaas/ros2_ws/build/act2_tf/build install --record /home/israamaciaas/ros2_ws/build/act2_tf/install.log --single-version-externally-managed install_data

@@ -1,0 +1,494 @@
+[0.141s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.141s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x752418457ca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7524184041f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7524184041f0>>)
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.372s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/israamaciaas/ros2_ws'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extension 'ros'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extensions ['cmake', 'python']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extension 'cmake'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extension 'python'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extensions ['python_setup_py']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(custom_maps) by extension 'python_setup_py'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extensions ['python_setup_py']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project) by extension 'python_setup_py'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project/multidim_rrt_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project/multidim_rrt_planner) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project/multidim_rrt_planner) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project/multidim_rrt_planner) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project/multidim_rrt_planner) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project/multidim_rrt_planner) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project/multidim_rrt_planner) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project/multidim_rrt_planner) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_project/multidim_rrt_planner) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hybrid_project/multidim_rrt_planner' with type 'ros.ament_python' and name 'multidim_rrt_planner'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extension 'ros'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extensions ['cmake', 'python']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities) by extension 'python_setup_py'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act1_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act1_tf) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act1_tf) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act1_tf) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act1_tf) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act1_tf) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act1_tf) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act1_tf) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act1_tf) by extension 'ros'
+[0.396s] DEBUG:colcon.colcon_core.package_identification:Package 'src/manchester_activities/act1_tf' with type 'ros.ament_python' and name 'act1_tf'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act2_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act2_tf) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act2_tf) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act2_tf) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act2_tf) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act2_tf) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act2_tf) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act2_tf) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/manchester_activities/act2_tf) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/manchester_activities/act2_tf' with type 'ros.ament_python' and name 'act2_tf'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/potMap) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/potMap) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/potMap) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/potMap) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/potMap) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/potMap) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/potMap) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/potMap) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/potMap) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/potMap' with type 'ros.ament_python' and name 'potMap'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_move) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_move) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_move) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_move) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_move) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_move) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_move) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_move) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_move) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_move' with type 'ros.ament_python' and name 'ros_move'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_generator) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_generator) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_generator) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_generator) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_generator) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_generator) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_generator) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_generator) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_generator) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/signal_generator' with type 'ros.ament_cmake' and name 'signal_generator'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_figure) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_figure) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_figure) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_figure) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_figure) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_figure) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_figure) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_figure) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_figure) by extension 'ros'
+[0.403s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_figure' with type 'ros.ament_python' and name 'turtle_figure'
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.449s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/israamaciaas/ros2_ws/install/turtle_figure' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.449s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/israamaciaas/ros2_ws/install/signal_generator' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.449s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/israamaciaas/ros2_ws/install/ros_move' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.449s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/israamaciaas/ros2_ws/install/potMap' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.449s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.449s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/israamaciaas/ros2_ws/install/act2_tf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.449s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/israamaciaas/ros2_ws/install/act1_tf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.450s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/israamaciaas/ros2_ws/install/signal_generator' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.451s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/israamaciaas/ros2_ws/install
+[0.452s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/israamaciaas/turtlebot3_ws/install
+[0.454s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 425 installed packages in /opt/ros/humble
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'act1_tf' build argument 'cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'act1_tf' build argument 'cmake_target' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'act1_tf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'act1_tf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'act1_tf' build argument 'cmake_clean_first' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'act1_tf' build argument 'cmake_force_configure' from command line to 'False'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'act1_tf' build argument 'ament_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'act1_tf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.522s] Level 5:colcon.colcon_core.verb:set package 'act1_tf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.522s] DEBUG:colcon.colcon_core.verb:Building package 'act1_tf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/israamaciaas/ros2_ws/build/act1_tf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/israamaciaas/ros2_ws/install/act1_tf', 'merge_install': False, 'path': '/home/israamaciaas/ros2_ws/src/manchester_activities/act1_tf', 'symlink_install': False, 'test_result_base': None}
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'act2_tf' build argument 'cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'act2_tf' build argument 'cmake_target' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'act2_tf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'act2_tf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'act2_tf' build argument 'cmake_clean_first' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'act2_tf' build argument 'cmake_force_configure' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'act2_tf' build argument 'ament_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'act2_tf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'act2_tf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.523s] DEBUG:colcon.colcon_core.verb:Building package 'act2_tf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/israamaciaas/ros2_ws/build/act2_tf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/israamaciaas/ros2_ws/install/act2_tf', 'merge_install': False, 'path': '/home/israamaciaas/ros2_ws/src/manchester_activities/act2_tf', 'symlink_install': False, 'test_result_base': None}
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'multidim_rrt_planner' build argument 'cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'multidim_rrt_planner' build argument 'cmake_target' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'multidim_rrt_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'multidim_rrt_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'multidim_rrt_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'multidim_rrt_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'multidim_rrt_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'multidim_rrt_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'multidim_rrt_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.524s] DEBUG:colcon.colcon_core.verb:Building package 'multidim_rrt_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/israamaciaas/ros2_ws/build/multidim_rrt_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner', 'merge_install': False, 'path': '/home/israamaciaas/ros2_ws/src/hybrid_project/multidim_rrt_planner', 'symlink_install': False, 'test_result_base': None}
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'potMap' build argument 'cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'potMap' build argument 'cmake_target' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'potMap' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'potMap' build argument 'cmake_clean_cache' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'potMap' build argument 'cmake_clean_first' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'potMap' build argument 'cmake_force_configure' from command line to 'False'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'potMap' build argument 'ament_cmake_args' from command line to 'None'
+[0.524s] Level 5:colcon.colcon_core.verb:set package 'potMap' build argument 'catkin_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'potMap' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.525s] DEBUG:colcon.colcon_core.verb:Building package 'potMap' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/israamaciaas/ros2_ws/build/potMap', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/israamaciaas/ros2_ws/install/potMap', 'merge_install': False, 'path': '/home/israamaciaas/ros2_ws/src/potMap', 'symlink_install': False, 'test_result_base': None}
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_move' build argument 'cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_move' build argument 'cmake_target' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_move' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_move' build argument 'cmake_clean_cache' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_move' build argument 'cmake_clean_first' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_move' build argument 'cmake_force_configure' from command line to 'False'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_move' build argument 'ament_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_move' build argument 'catkin_cmake_args' from command line to 'None'
+[0.525s] Level 5:colcon.colcon_core.verb:set package 'ros_move' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.525s] DEBUG:colcon.colcon_core.verb:Building package 'ros_move' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/israamaciaas/ros2_ws/build/ros_move', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/israamaciaas/ros2_ws/install/ros_move', 'merge_install': False, 'path': '/home/israamaciaas/ros2_ws/src/ros_move', 'symlink_install': False, 'test_result_base': None}
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'signal_generator' build argument 'cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'signal_generator' build argument 'cmake_target' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'signal_generator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'signal_generator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'signal_generator' build argument 'cmake_clean_first' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'signal_generator' build argument 'cmake_force_configure' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'signal_generator' build argument 'ament_cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'signal_generator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'signal_generator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.526s] DEBUG:colcon.colcon_core.verb:Building package 'signal_generator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/israamaciaas/ros2_ws/build/signal_generator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/israamaciaas/ros2_ws/install/signal_generator', 'merge_install': False, 'path': '/home/israamaciaas/ros2_ws/src/signal_generator', 'symlink_install': False, 'test_result_base': None}
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'turtle_figure' build argument 'cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'turtle_figure' build argument 'cmake_target' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'turtle_figure' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'turtle_figure' build argument 'cmake_clean_cache' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'turtle_figure' build argument 'cmake_clean_first' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'turtle_figure' build argument 'cmake_force_configure' from command line to 'False'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'turtle_figure' build argument 'ament_cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'turtle_figure' build argument 'catkin_cmake_args' from command line to 'None'
+[0.526s] Level 5:colcon.colcon_core.verb:set package 'turtle_figure' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.526s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_figure' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/israamaciaas/ros2_ws/build/turtle_figure', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/israamaciaas/ros2_ws/install/turtle_figure', 'merge_install': False, 'path': '/home/israamaciaas/ros2_ws/src/turtle_figure', 'symlink_install': False, 'test_result_base': None}
+[0.527s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.528s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.528s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/israamaciaas/ros2_ws/src/manchester_activities/act1_tf' with build type 'ament_python'
+[0.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('act1_tf', 'ament_prefix_path')
+[0.531s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/act1_tf/share/act1_tf/hook/ament_prefix_path.ps1'
+[0.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/act1_tf/share/act1_tf/hook/ament_prefix_path.dsv'
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/act1_tf/share/act1_tf/hook/ament_prefix_path.sh'
+[0.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.534s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.540s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/israamaciaas/ros2_ws/src/manchester_activities/act2_tf' with build type 'ament_python'
+[0.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('act2_tf', 'ament_prefix_path')
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/hook/ament_prefix_path.ps1'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/hook/ament_prefix_path.dsv'
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/hook/ament_prefix_path.sh'
+[0.543s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.549s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/israamaciaas/ros2_ws/src/hybrid_project/multidim_rrt_planner' with build type 'ament_python'
+[0.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('multidim_rrt_planner', 'ament_prefix_path')
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/hook/ament_prefix_path.ps1'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/hook/ament_prefix_path.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/hook/ament_prefix_path.sh'
+[0.552s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.558s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/israamaciaas/ros2_ws/src/potMap' with build type 'ament_python'
+[0.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('potMap', 'ament_prefix_path')
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/potMap/share/potMap/hook/ament_prefix_path.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/potMap/share/potMap/hook/ament_prefix_path.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/potMap/share/potMap/hook/ament_prefix_path.sh'
+[0.561s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.561s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.567s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/israamaciaas/ros2_ws/src/ros_move' with build type 'ament_python'
+[0.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_move', 'ament_prefix_path')
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/ros_move/share/ros_move/hook/ament_prefix_path.ps1'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/ros_move/share/ros_move/hook/ament_prefix_path.dsv'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/ros_move/share/ros_move/hook/ament_prefix_path.sh'
+[0.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.576s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/israamaciaas/ros2_ws/src/signal_generator' with build type 'ament_cmake'
+[0.576s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/israamaciaas/ros2_ws/src/signal_generator'
+[0.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.576s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.584s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/israamaciaas/ros2_ws/src/turtle_figure' with build type 'ament_python'
+[0.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_figure', 'ament_prefix_path')
+[0.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/hook/ament_prefix_path.ps1'
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/hook/ament_prefix_path.dsv'
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/hook/ament_prefix_path.sh'
+[0.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.971s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/israamaciaas/ros2_ws/src/manchester_activities/act1_tf'
+[0.971s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.287s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/israamaciaas/ros2_ws/src/manchester_activities/act2_tf'
+[1.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.548s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/israamaciaas/ros2_ws/src/hybrid_project/multidim_rrt_planner'
+[1.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.812s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/israamaciaas/ros2_ws/src/potMap'
+[1.813s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.813s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.071s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/israamaciaas/ros2_ws/src/ros_move'
+[2.071s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/israamaciaas/ros2_ws/build/signal_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/israamaciaas/ros2_ws/install/turtle_figure:/home/israamaciaas/ros2_ws/install/ros_move:/home/israamaciaas/ros2_ws/install/potMap:/home/israamaciaas/ros2_ws/install/multidim_rrt_planner:/home/israamaciaas/ros2_ws/install/act2_tf:/home/israamaciaas/ros2_ws/install/act1_tf:/home/israamaciaas/turtlebot3_ws/install/turtlebot3_teleop:/home/israamaciaas/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/israamaciaas/ros2_ws/src/signal_generator -DCMAKE_INSTALL_PREFIX=/home/israamaciaas/ros2_ws/install/signal_generator
+[2.374s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/israamaciaas/ros2_ws/src/turtle_figure'
+[2.374s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/israamaciaas/ros2_ws/src/manchester_activities/act2_tf': PYTHONPATH=/home/israamaciaas/ros2_ws/build/act2_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/act2_tf build --build-base /home/israamaciaas/ros2_ws/build/act2_tf/build install --record /home/israamaciaas/ros2_ws/build/act2_tf/install.log --single-version-externally-managed install_data
+[3.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/israamaciaas/ros2_ws/src/hybrid_project/multidim_rrt_planner': PYTHONPATH=/home/israamaciaas/ros2_ws/build/multidim_rrt_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/multidim_rrt_planner build --build-base /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build install --record /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/install.log --single-version-externally-managed install_data
+[3.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/israamaciaas/ros2_ws/src/turtle_figure': PYTHONPATH=/home/israamaciaas/ros2_ws/build/turtle_figure/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/turtle_figure/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_figure build --build-base /home/israamaciaas/ros2_ws/build/turtle_figure/build install --record /home/israamaciaas/ros2_ws/build/turtle_figure/install.log --single-version-externally-managed install_data
+[3.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/israamaciaas/ros2_ws/src/ros_move': PYTHONPATH=/home/israamaciaas/ros2_ws/build/ros_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_move build --build-base /home/israamaciaas/ros2_ws/build/ros_move/build install --record /home/israamaciaas/ros2_ws/build/ros_move/install.log --single-version-externally-managed install_data
+[3.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/israamaciaas/ros2_ws/src/manchester_activities/act1_tf': PYTHONPATH=/home/israamaciaas/ros2_ws/build/act1_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/act1_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/act1_tf build --build-base /home/israamaciaas/ros2_ws/build/act1_tf/build install --record /home/israamaciaas/ros2_ws/build/act1_tf/install.log --single-version-externally-managed install_data
+[3.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/israamaciaas/ros2_ws/src/potMap': PYTHONPATH=/home/israamaciaas/ros2_ws/build/potMap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/potMap build --build-base /home/israamaciaas/ros2_ws/build/potMap/build install --record /home/israamaciaas/ros2_ws/build/potMap/install.log --single-version-externally-managed install_data
+[3.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/israamaciaas/ros2_ws/src/manchester_activities/act2_tf' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/act2_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/act2_tf build --build-base /home/israamaciaas/ros2_ws/build/act2_tf/build install --record /home/israamaciaas/ros2_ws/build/act2_tf/install.log --single-version-externally-managed install_data
+[3.973s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act2_tf' for CMake module files
+[3.974s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act2_tf' for CMake config files
+[3.980s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act2_tf/lib'
+[3.980s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act2_tf/bin'
+[3.980s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act2_tf/lib/pkgconfig/act2_tf.pc'
+[3.981s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages'
+[3.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('act2_tf', 'pythonpath')
+[3.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/hook/pythonpath.ps1'
+[3.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/hook/pythonpath.dsv'
+[3.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/hook/pythonpath.sh'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act2_tf/bin'
+[3.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(act2_tf)
+[3.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/package.ps1'
+[3.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/package.dsv'
+[4.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/package.sh'
+[4.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/package.bash'
+[4.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/act2_tf/share/act2_tf/package.zsh'
+[4.005s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/israamaciaas/ros2_ws/install/act2_tf/share/colcon-core/packages/act2_tf)
+[4.026s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/turtle_figure' for CMake module files
+[4.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/israamaciaas/ros2_ws/src/turtle_figure' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/turtle_figure/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/turtle_figure/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_figure build --build-base /home/israamaciaas/ros2_ws/build/turtle_figure/build install --record /home/israamaciaas/ros2_ws/build/turtle_figure/install.log --single-version-externally-managed install_data
+[4.027s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/turtle_figure' for CMake config files
+[4.033s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/turtle_figure/lib'
+[4.033s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/turtle_figure/bin'
+[4.033s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/turtle_figure/lib/pkgconfig/turtle_figure.pc'
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/turtle_figure/lib/python3.10/site-packages'
+[4.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_figure', 'pythonpath')
+[4.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/hook/pythonpath.ps1'
+[4.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/hook/pythonpath.dsv'
+[4.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/hook/pythonpath.sh'
+[4.036s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/turtle_figure/bin'
+[4.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_figure)
+[4.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/package.ps1'
+[4.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/package.dsv'
+[4.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/package.sh'
+[4.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/package.bash'
+[4.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/turtle_figure/share/turtle_figure/package.zsh'
+[4.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/israamaciaas/ros2_ws/install/turtle_figure/share/colcon-core/packages/turtle_figure)
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner' for CMake module files
+[4.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/israamaciaas/ros2_ws/src/hybrid_project/multidim_rrt_planner' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/multidim_rrt_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/multidim_rrt_planner build --build-base /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/build install --record /home/israamaciaas/ros2_ws/build/multidim_rrt_planner/install.log --single-version-externally-managed install_data
+[4.048s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner' for CMake config files
+[4.049s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib'
+[4.050s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/bin'
+[4.050s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/pkgconfig/multidim_rrt_planner.pc'
+[4.050s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/lib/python3.10/site-packages'
+[4.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('multidim_rrt_planner', 'pythonpath')
+[4.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/hook/pythonpath.ps1'
+[4.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/hook/pythonpath.dsv'
+[4.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/hook/pythonpath.sh'
+[4.053s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/bin'
+[4.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multidim_rrt_planner)
+[4.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/package.ps1'
+[4.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/package.dsv'
+[4.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/package.sh'
+[4.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/package.bash'
+[4.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/multidim_rrt_planner/package.zsh'
+[4.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/israamaciaas/ros2_ws/install/multidim_rrt_planner/share/colcon-core/packages/multidim_rrt_planner)
+[4.061s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/ros_move' for CMake module files
+[4.062s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/ros_move' for CMake config files
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/ros_move/lib'
+[4.064s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/ros_move/bin'
+[4.064s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/ros_move/lib/pkgconfig/ros_move.pc'
+[4.064s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages'
+[4.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/israamaciaas/ros2_ws/src/ros_move' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/ros_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/ros_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_move build --build-base /home/israamaciaas/ros2_ws/build/ros_move/build install --record /home/israamaciaas/ros2_ws/build/ros_move/install.log --single-version-externally-managed install_data
+[4.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_move', 'pythonpath')
+[4.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/ros_move/share/ros_move/hook/pythonpath.ps1'
+[4.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/ros_move/share/ros_move/hook/pythonpath.dsv'
+[4.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/ros_move/share/ros_move/hook/pythonpath.sh'
+[4.069s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/ros_move/bin'
+[4.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_move)
+[4.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/ros_move/share/ros_move/package.ps1'
+[4.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/israamaciaas/ros2_ws/install/ros_move/share/ros_move/package.dsv'
+[4.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/ros_move/share/ros_move/package.sh'
+[4.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/ros_move/share/ros_move/package.bash'
+[4.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/ros_move/share/ros_move/package.zsh'
+[4.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/israamaciaas/ros2_ws/install/ros_move/share/colcon-core/packages/ros_move)
+[4.085s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act1_tf' for CMake module files
+[4.085s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act1_tf' for CMake config files
+[4.086s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act1_tf/lib'
+[4.086s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act1_tf/bin'
+[4.087s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act1_tf/lib/pkgconfig/act1_tf.pc'
+[4.087s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act1_tf/lib/python3.10/site-packages'
+[4.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('act1_tf', 'pythonpath')
+[4.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/act1_tf/share/act1_tf/hook/pythonpath.ps1'
+[4.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/israamaciaas/ros2_ws/src/manchester_activities/act1_tf' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/act1_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/act1_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/act1_tf build --build-base /home/israamaciaas/ros2_ws/build/act1_tf/build install --record /home/israamaciaas/ros2_ws/build/act1_tf/install.log --single-version-externally-managed install_data
+[4.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/act1_tf/share/act1_tf/hook/pythonpath.dsv'
+[4.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/act1_tf/share/act1_tf/hook/pythonpath.sh'
+[4.091s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/act1_tf/bin'
+[4.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(act1_tf)
+[4.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/act1_tf/share/act1_tf/package.ps1'
+[4.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/israamaciaas/ros2_ws/install/act1_tf/share/act1_tf/package.dsv'
+[4.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/act1_tf/share/act1_tf/package.sh'
+[4.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/act1_tf/share/act1_tf/package.bash'
+[4.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/act1_tf/share/act1_tf/package.zsh'
+[4.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/israamaciaas/ros2_ws/install/act1_tf/share/colcon-core/packages/act1_tf)
+[4.124s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/potMap' for CMake module files
+[4.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/israamaciaas/ros2_ws/src/potMap' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/potMap/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/potMap build --build-base /home/israamaciaas/ros2_ws/build/potMap/build install --record /home/israamaciaas/ros2_ws/build/potMap/install.log --single-version-externally-managed install_data
+[4.125s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/potMap' for CMake config files
+[4.125s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/potMap/lib'
+[4.125s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/potMap/bin'
+[4.125s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/potMap/lib/pkgconfig/potMap.pc'
+[4.125s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/potMap/lib/python3.10/site-packages'
+[4.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('potMap', 'pythonpath')
+[4.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/potMap/share/potMap/hook/pythonpath.ps1'
+[4.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/potMap/share/potMap/hook/pythonpath.dsv'
+[4.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/potMap/share/potMap/hook/pythonpath.sh'
+[4.127s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/potMap/bin'
+[4.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(potMap)
+[4.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/potMap/share/potMap/package.ps1'
+[4.129s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/israamaciaas/ros2_ws/install/potMap/share/potMap/package.dsv'
+[4.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/potMap/share/potMap/package.sh'
+[4.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/potMap/share/potMap/package.bash'
+[4.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/potMap/share/potMap/package.zsh'
+[4.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/israamaciaas/ros2_ws/install/potMap/share/colcon-core/packages/potMap)
+[4.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/israamaciaas/ros2_ws/build/signal_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/israamaciaas/ros2_ws/install/turtle_figure:/home/israamaciaas/ros2_ws/install/ros_move:/home/israamaciaas/ros2_ws/install/potMap:/home/israamaciaas/ros2_ws/install/multidim_rrt_planner:/home/israamaciaas/ros2_ws/install/act2_tf:/home/israamaciaas/ros2_ws/install/act1_tf:/home/israamaciaas/turtlebot3_ws/install/turtlebot3_teleop:/home/israamaciaas/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/israamaciaas/ros2_ws/src/signal_generator -DCMAKE_INSTALL_PREFIX=/home/israamaciaas/ros2_ws/install/signal_generator
+[4.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/israamaciaas/ros2_ws/build/signal_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/israamaciaas/ros2_ws/install/turtle_figure:/home/israamaciaas/ros2_ws/install/ros_move:/home/israamaciaas/ros2_ws/install/potMap:/home/israamaciaas/ros2_ws/install/multidim_rrt_planner:/home/israamaciaas/ros2_ws/install/act2_tf:/home/israamaciaas/ros2_ws/install/act1_tf:/home/israamaciaas/turtlebot3_ws/install/turtlebot3_teleop:/home/israamaciaas/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/israamaciaas/ros2_ws/build/signal_generator -- -j8 -l8
+[9.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/israamaciaas/ros2_ws/build/signal_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/israamaciaas/ros2_ws/install/turtle_figure:/home/israamaciaas/ros2_ws/install/ros_move:/home/israamaciaas/ros2_ws/install/potMap:/home/israamaciaas/ros2_ws/install/multidim_rrt_planner:/home/israamaciaas/ros2_ws/install/act2_tf:/home/israamaciaas/ros2_ws/install/act1_tf:/home/israamaciaas/turtlebot3_ws/install/turtlebot3_teleop:/home/israamaciaas/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/israamaciaas/ros2_ws/build/signal_generator -- -j8 -l8
+[9.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/israamaciaas/ros2_ws/build/signal_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/israamaciaas/ros2_ws/install/turtle_figure:/home/israamaciaas/ros2_ws/install/ros_move:/home/israamaciaas/ros2_ws/install/potMap:/home/israamaciaas/ros2_ws/install/multidim_rrt_planner:/home/israamaciaas/ros2_ws/install/act2_tf:/home/israamaciaas/ros2_ws/install/act1_tf:/home/israamaciaas/turtlebot3_ws/install/turtlebot3_teleop:/home/israamaciaas/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/israamaciaas/ros2_ws/build/signal_generator
+[9.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(signal_generator)
+[9.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/israamaciaas/ros2_ws/build/signal_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/israamaciaas/ros2_ws/install/turtle_figure:/home/israamaciaas/ros2_ws/install/ros_move:/home/israamaciaas/ros2_ws/install/potMap:/home/israamaciaas/ros2_ws/install/multidim_rrt_planner:/home/israamaciaas/ros2_ws/install/act2_tf:/home/israamaciaas/ros2_ws/install/act1_tf:/home/israamaciaas/turtlebot3_ws/install/turtlebot3_teleop:/home/israamaciaas/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/israamaciaas/ros2_ws/build/signal_generator
+[9.756s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator' for CMake module files
+[9.757s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator' for CMake config files
+[9.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_generator', 'cmake_prefix_path')
+[9.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/hook/cmake_prefix_path.ps1'
+[9.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/hook/cmake_prefix_path.dsv'
+[9.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/hook/cmake_prefix_path.sh'
+[9.758s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator/lib'
+[9.758s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator/bin'
+[9.758s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator/lib/pkgconfig/signal_generator.pc'
+[9.759s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator/lib/python3.10/site-packages'
+[9.759s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator/bin'
+[9.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.ps1'
+[9.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.dsv'
+[9.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.sh'
+[9.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.bash'
+[9.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.zsh'
+[9.762s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/israamaciaas/ros2_ws/install/signal_generator/share/colcon-core/packages/signal_generator)
+[9.797s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(signal_generator)
+[9.797s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator' for CMake module files
+[9.798s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator' for CMake config files
+[9.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_generator', 'cmake_prefix_path')
+[9.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/hook/cmake_prefix_path.ps1'
+[9.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/hook/cmake_prefix_path.dsv'
+[9.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/hook/cmake_prefix_path.sh'
+[9.800s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator/lib'
+[9.800s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator/bin'
+[9.800s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator/lib/pkgconfig/signal_generator.pc'
+[9.800s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator/lib/python3.10/site-packages'
+[9.800s] Level 1:colcon.colcon_core.environment:checking '/home/israamaciaas/ros2_ws/install/signal_generator/bin'
+[9.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.ps1'
+[9.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.dsv'
+[9.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.sh'
+[9.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.bash'
+[9.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/israamaciaas/ros2_ws/install/signal_generator/share/signal_generator/package.zsh'
+[9.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/israamaciaas/ros2_ws/install/signal_generator/share/colcon-core/packages/signal_generator)
+[9.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.803s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.809s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.810s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.823s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.824s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/israamaciaas/ros2_ws/install/local_setup.ps1'
+[9.825s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/israamaciaas/ros2_ws/install/_local_setup_util_ps1.py'
+[9.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/israamaciaas/ros2_ws/install/setup.ps1'
+[9.828s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/israamaciaas/ros2_ws/install/local_setup.sh'
+[9.829s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/israamaciaas/ros2_ws/install/_local_setup_util_sh.py'
+[9.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/israamaciaas/ros2_ws/install/setup.sh'
+[9.832s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/israamaciaas/ros2_ws/install/local_setup.bash'
+[9.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/israamaciaas/ros2_ws/install/setup.bash'
+[9.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/israamaciaas/ros2_ws/install/local_setup.zsh'
+[9.835s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/israamaciaas/ros2_ws/install/setup.zsh'

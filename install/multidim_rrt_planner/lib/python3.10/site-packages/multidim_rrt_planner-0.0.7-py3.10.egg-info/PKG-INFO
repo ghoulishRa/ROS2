@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: multidim-rrt-planner
+Version: 0.0.7
+Summary: RRT based exploration in both 2D and 3D
+Home-page: UNKNOWN
+Maintainer: david
+Maintainer-email: daviddorf2023@u.northwestern.edu
+License: Apache-2.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

@@ -61,8 +61,6 @@
 
 <!--JOINTS-->
 
-
-
     <joint name="wheel_right_joint" type="continuous">
         <parent link="base_link"/> 
         <child link="wheel_right_link"/> 

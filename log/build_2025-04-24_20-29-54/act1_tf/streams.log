@@ -1,0 +1,37 @@
+[2.825s] Invoking command in '/home/israamaciaas/ros2_ws/src/manchester_activities/act1_tf': PYTHONPATH=/home/israamaciaas/ros2_ws/build/act1_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/act1_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/act1_tf build --build-base /home/israamaciaas/ros2_ws/build/act1_tf/build install --record /home/israamaciaas/ros2_ws/build/act1_tf/install.log --single-version-externally-managed install_data
+[3.378s] running egg_info
+[3.378s] creating ../../../build/act1_tf/act1_tf.egg-info
+[3.378s] writing ../../../build/act1_tf/act1_tf.egg-info/PKG-INFO
+[3.379s] writing dependency_links to ../../../build/act1_tf/act1_tf.egg-info/dependency_links.txt
+[3.379s] writing entry points to ../../../build/act1_tf/act1_tf.egg-info/entry_points.txt
+[3.379s] writing requirements to ../../../build/act1_tf/act1_tf.egg-info/requires.txt
+[3.379s] writing top-level names to ../../../build/act1_tf/act1_tf.egg-info/top_level.txt
+[3.380s] writing manifest file '../../../build/act1_tf/act1_tf.egg-info/SOURCES.txt'
+[3.384s] reading manifest file '../../../build/act1_tf/act1_tf.egg-info/SOURCES.txt'
+[3.386s] writing manifest file '../../../build/act1_tf/act1_tf.egg-info/SOURCES.txt'
+[3.386s] running build
+[3.386s] running build_py
+[3.386s] creating /home/israamaciaas/ros2_ws/build/act1_tf/build
+[3.386s] creating /home/israamaciaas/ros2_ws/build/act1_tf/build/lib
+[3.386s] creating /home/israamaciaas/ros2_ws/build/act1_tf/build/lib/act1_tf
+[3.387s] copying act1_tf/__init__.py -> /home/israamaciaas/ros2_ws/build/act1_tf/build/lib/act1_tf
+[3.387s] copying act1_tf/act1_tf_node.py -> /home/israamaciaas/ros2_ws/build/act1_tf/build/lib/act1_tf
+[3.387s] running install
+[3.392s] running install_lib
+[3.392s] creating /home/israamaciaas/ros2_ws/install/act1_tf/lib/python3.10/site-packages/act1_tf
+[3.392s] copying /home/israamaciaas/ros2_ws/build/act1_tf/build/lib/act1_tf/__init__.py -> /home/israamaciaas/ros2_ws/install/act1_tf/lib/python3.10/site-packages/act1_tf
+[3.392s] copying /home/israamaciaas/ros2_ws/build/act1_tf/build/lib/act1_tf/act1_tf_node.py -> /home/israamaciaas/ros2_ws/install/act1_tf/lib/python3.10/site-packages/act1_tf
+[3.392s] byte-compiling /home/israamaciaas/ros2_ws/install/act1_tf/lib/python3.10/site-packages/act1_tf/__init__.py to __init__.cpython-310.pyc
+[3.392s] byte-compiling /home/israamaciaas/ros2_ws/install/act1_tf/lib/python3.10/site-packages/act1_tf/act1_tf_node.py to act1_tf_node.cpython-310.pyc
+[3.394s] running install_data
+[3.394s] creating /home/israamaciaas/ros2_ws/install/act1_tf/share/ament_index
+[3.394s] creating /home/israamaciaas/ros2_ws/install/act1_tf/share/ament_index/resource_index
+[3.394s] creating /home/israamaciaas/ros2_ws/install/act1_tf/share/ament_index/resource_index/packages
+[3.395s] copying resource/act1_tf -> /home/israamaciaas/ros2_ws/install/act1_tf/share/ament_index/resource_index/packages
+[3.395s] copying package.xml -> /home/israamaciaas/ros2_ws/install/act1_tf/share/act1_tf
+[3.395s] running install_egg_info
+[3.398s] Copying ../../../build/act1_tf/act1_tf.egg-info to /home/israamaciaas/ros2_ws/install/act1_tf/lib/python3.10/site-packages/act1_tf-0.0.0-py3.10.egg-info
+[3.400s] running install_scripts
+[3.445s] Installing act1_tf_node script to /home/israamaciaas/ros2_ws/install/act1_tf/lib/act1_tf
+[3.447s] writing list of installed files to '/home/israamaciaas/ros2_ws/build/act1_tf/install.log'
+[3.559s] Invoked command in '/home/israamaciaas/ros2_ws/src/manchester_activities/act1_tf' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/act1_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/act1_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/act1_tf build --build-base /home/israamaciaas/ros2_ws/build/act1_tf/build install --record /home/israamaciaas/ros2_ws/build/act1_tf/install.log --single-version-externally-managed install_data

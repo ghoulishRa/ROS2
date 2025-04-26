@@ -1,0 +1,8 @@
+[console_scripts]
+map_frame_pub = multidim_rrt_planner.map_frame_pub:main
+obstacle_pub_2D = multidim_rrt_planner.obstacle_pub_2D:main
+obstacle_pub_3D = multidim_rrt_planner.obstacle_pub_3D:main
+occupancy_pub = multidim_rrt_planner.occupancy_pub:main
+rrt2D = multidim_rrt_planner.rrt2D:main
+rrt3D = multidim_rrt_planner.rrt3D:main
+

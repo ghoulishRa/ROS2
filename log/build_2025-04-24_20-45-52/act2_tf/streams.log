@@ -1,0 +1,22 @@
+[2.858s] Invoking command in '/home/israamaciaas/ros2_ws/src/manchester_activities/act2_tf': PYTHONPATH=/home/israamaciaas/ros2_ws/build/act2_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/act2_tf build --build-base /home/israamaciaas/ros2_ws/build/act2_tf/build install --record /home/israamaciaas/ros2_ws/build/act2_tf/install.log --single-version-externally-managed install_data
+[3.254s] running egg_info
+[3.255s] writing ../../../build/act2_tf/act2_tf.egg-info/PKG-INFO
+[3.255s] writing dependency_links to ../../../build/act2_tf/act2_tf.egg-info/dependency_links.txt
+[3.255s] writing entry points to ../../../build/act2_tf/act2_tf.egg-info/entry_points.txt
+[3.255s] writing requirements to ../../../build/act2_tf/act2_tf.egg-info/requires.txt
+[3.255s] writing top-level names to ../../../build/act2_tf/act2_tf.egg-info/top_level.txt
+[3.261s] reading manifest file '../../../build/act2_tf/act2_tf.egg-info/SOURCES.txt'
+[3.261s] writing manifest file '../../../build/act2_tf/act2_tf.egg-info/SOURCES.txt'
+[3.262s] running build
+[3.262s] running build_py
+[3.262s] running install
+[3.263s] running install_lib
+[3.265s] running install_data
+[3.266s] running install_egg_info
+[3.269s] removing '/home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages/act2_tf-0.0.0-py3.10.egg-info' (and everything under it)
+[3.270s] Copying ../../../build/act2_tf/act2_tf.egg-info to /home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages/act2_tf-0.0.0-py3.10.egg-info
+[3.271s] running install_scripts
+[3.313s] Installing joint_pub script to /home/israamaciaas/ros2_ws/install/act2_tf/lib/act2_tf
+[3.314s] Installing puzzlebot script to /home/israamaciaas/ros2_ws/install/act2_tf/lib/act2_tf
+[3.315s] writing list of installed files to '/home/israamaciaas/ros2_ws/build/act2_tf/install.log'
+[3.408s] Invoked command in '/home/israamaciaas/ros2_ws/src/manchester_activities/act2_tf' returned '0': PYTHONPATH=/home/israamaciaas/ros2_ws/build/act2_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/israamaciaas/ros2_ws/install/act2_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/act2_tf build --build-base /home/israamaciaas/ros2_ws/build/act2_tf/build install --record /home/israamaciaas/ros2_ws/build/act2_tf/install.log --single-version-externally-managed install_data
